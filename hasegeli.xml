@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="person.xsl"?>
+
+<person name="Emre Hasegeli" mail="emre@hasegeli.com">
+    <skills about="Software Engineering">
+        <skill name="Database Administration"/>
+        <skill name="Database Modelling"/>
+        <skill name="Database Development"/>
+        <skill name="Software Development"/>
+        <skill name="Technical Documentation"/>
+    </skills>
+
+    <experience title="Waiter" time="2006 Summer">
+        <company name="Çeşme Pecos Bar"/>
+    </experience>
+
+    <experience title="Barmen" time="2007 Summer">
+        <company name="Alaçatı Otto Restaurant Bar" address="www.otto-restaurant.com"/>
+    </experience>
+
+    <experience title="Part Time Student Asistant" time="2007 - ...">
+        <company name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı" address="www.sks.itu.edu.tr"/>
+    </experience>
+
+    <experience title="Software Developer" time="2008-05-09 - 2010-06-01">
+        <company name="Ares Teknoloji Ticaret AŞ"/>
+
+        <project name="Vademecum" address="vademecum-online.com.tr" description="a medicine database for Medical Tribune Turkey">
+            <accomplishment>Modeling and development of the database</accomplishment>
+            <accomplishment>Migration of the data from a book to MySQL</accomplishment>
+            <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
+            <accomplishment>Development a data correction panel for the database</accomplishment>
+            <accomplishment>Development database model layer of the Vademecum Online</accomplishment>
+            <accomplishment>Requirement analyse and development of the Vademecum Web Service</accomplishment>
+            <technology name="MySQL 5"/>
+            <technology name="PostgreSQL 8"/>
+            <technology name="PHP 5"/>
+            <technology name="WSDL"/>
+            <technology name="Apache HTTP Server 2"/>
+            <technology name="Apache Subversion"/>
+            <technology name="Magento"/>
+            <technology name="The Bug Genie"/>
+        </project>
+    </experience>
+
+    <experience title="Database Administrator" time="2011-01-06 - ...">
+        <company name="Tart İnternet Teknolojileri Ticaret AŞ" address="tart.com.tr"/>
+
+        <project name="Playstore.com" address="playstore.com" description="an ecommerce application">
+            <accomplishment>Modeling, development and administration of the databases</accomplishment>
+            <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
+            <accomplishment>Migration of the content management system database from MySQL to PostgreSQL</accomplishment>
+            <accomplishment>Monitoring setup for the PostgreSQL servers</accomplishment>
+            <technology name="Oracle Database 11g"/>
+            <technology name="Oracle SQL Developer Data Modeler"/>
+            <technology name="PostgreSQL 9"/>
+            <technology name="Apache Solr"/>
+            <technology name="Nagios"/>
+            <technology name="Drupal 6"/>
+        </project>
+                    
+        <project name="Tuttur.com" address="tuttur.com" description="a betting service">
+            <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB, Apache Solr servers</accomplishment>
+            <accomplishment>Development and administration of the databases</accomplishment>
+            <technology name="MySQL 5"/>
+            <technology name="MongoDB 2"/>
+            <technology name="Apache Solr"/>
+            <technology name="Nagios"/>
+            <technology name="EMC VNX Series"/>
+        </project>
+
+        <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
+            <accomplishment>Database basics lesson</accomplishment>
+        </project>
+    </experience>
+</person>
+

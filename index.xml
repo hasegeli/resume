@@ -78,5 +78,155 @@
             <organization name="Türkiye Kömür İşletmeleri Seyitömer Linyitleri İşletmesi Müdürlüğü" description="Turkish coal foundation brown coal quarry establishment" address="www.sli.gov.tr"/>
         </project>
     </education>
+
+    <knowledge about="Languages">
+        <item name="Turkish">
+            <usage name="Mother Tongue" level="Advanced" year="24"/>
+        </item>
+
+        <item name="English">
+            <usage name="Speaking" level="Intermediate" year="10"/>
+            <usage name="Reading" level="Advanced" year="10"/>
+            <usage name="Writing" level="Intermediate" year="7"/>
+        </item>
+
+        <item name="Latin">
+            <usage name="Reading" level="Beginner" year="2"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Operating Systems">
+        <item name="MS-DOS">
+            <usage name="Personal" level="Advanced" year="3"/>
+        </item>
+
+        <item name="Microsoft Windows 98">
+            <usage name="Personal" level="Intermediate" year="5"/>
+        </item>
+
+        <item name="Microsoft Windows XP">
+            <usage name="Personal" level="Intermediate" year="4"/>
+        </item>
+
+        <item name="Ubuntu Linux">
+            <usage name="Personal" level="Advanced" year="4"/>
+            <usage name="Server Administration" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="Debian GNU/Linux">
+            <usage name="Server Administration" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="Red Hat Enterprise Linux">
+            <usage name="Server Administration" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="FreeBSD">
+            <usage name="Personal" level="Beginner" year="2"/>
+        </item>
+
+        <item name="OpenBSD">
+            <usage name="Personal" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Mac OS X">
+            <usage name="Personal" level="Beginner" year="1"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Programming Languages">
+        <item name="Pascal">
+            <usage name="Game Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="SQL">
+            <usage name="Database Development" level="Advanced" year="5"/>
+        </item>
+
+        <item name="PHP">
+            <usage name="Web Site Backend Development" level="Advanced" year="5"/>
+        </item>
+
+        <item name="C#">
+            <usage name="Personal" level="Beginner" year="1"/>
+            <course name="Programming with C#" organization="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+            <course name="Introduction to C# Programming with Microsoft .NET" organization="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+        </item>
+
+        <item name="Python">
+            <usage name="Web Site Backend Development" level="Beginner" year="2"/>
+            <usage name="Server Administration" level="Intermediate" year="3"/>
+        </item>
+
+        <item name="C">
+            <usage name="Server Administration" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Perl">
+            <usage name="Server Administration" level="Beginner" year="2"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Database Management Systems">
+        <item name="MySQL">
+            <usage name="Querying" level="Advanced" year="5"/>
+            <usage name="Database Development" level="Advanced" year="5"/>
+            <usage name="Server Administration" level="Advanced" year="5"/>
+        </item>
+
+        <item name="Microsoft SQL Server">
+            <usage name="Personal" level="Beginner" year="1"/>
+            <course name="Iplementing a Microsoft SQL Server 2005 Database" organization="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
+            <course name="Querying Microsoft SQL Server with Transact-SQL" organization="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
+        </item>
+
+        <item name="PostgreSQL">
+            <usage name="Querying" level="Advanced" year="4"/>
+            <usage name="Database Development" level="Advanced" year="4"/>
+            <usage name="Server Administration" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="MongoDB">
+            <usage name="Querying" level="Advanced" year="1"/>
+            <usage name="Server Administration" level="Advanced" year="1"/>
+        </item>
+
+        <item name="Redis">
+            <usage name="Server Administration" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Apache Solr">
+            <usage name="Server Administration" level="Intermediate" year="1"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Version Control Systems">
+        <item name="Apache Subversion">
+            <usage name="Software Development" level="Intermediate" year="3"/>
+        </item>
+
+        <item name="Git">
+            <usage name="Software Development" level="Beginner" year="2"/>
+            <usage name="Database Development" level="Intermediate" year="2"/>
+            <usage name="Server Administration" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="GNU Bazaar">
+            <usage name="Software Development" level="Beginner" year="1"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Driving">
+        <item name="Car">
+            <usage name="Driving" level="Intermediate" year="7"/>
+            <usage name="Maintenanece" level="Beginner" year="2"/>
+            <license name="Turkish Driving License"/>
+        </item>
+
+        <item name="Motorcycle">
+            <usage name="Driving" level="Beginner" year="3"/>
+            <license name="Turkish Driving License"/>
+        </item>
+    </knowledge>
 </person>
 

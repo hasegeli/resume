@@ -64,6 +64,48 @@
                             </xsl:for-each>
                         </td>
                     </tr>
+
+                    <tr>
+                        <td>Education</td>
+                        <td>
+                            <xsl:for-each select="education">
+                                <xsl:value-of select="@time"/>
+                                <xsl:value-of select="@status"/>
+                                <h4><xsl:value-of select="school/@name"/></h4>
+
+                                <blockquote>
+                                    <p>
+                                        <a><xsl:attribute name="href">http://<xsl:value-of select="school/@address"/></xsl:attribute>
+                                            <xsl:value-of select="school/@address"/>
+                                        </a>
+                                    </p>
+
+                                    <h6><xsl:value-of select="school/faculty/@name"/></h6>
+                                    <p><xsl:value-of select="school/faculty/@department"/></p>
+                                </blockquote>
+
+                                <xsl:for-each select="project">
+                                    <h6><xsl:value-of select="@title"/></h6>
+                                    <p><xsl:value-of select="organization/@name"/></p>
+                                    <p>
+                                        <a><xsl:attribute name="href">http://<xsl:value-of select="organization/@address"/></xsl:attribute>
+                                            <xsl:value-of select="organization/@address"/>
+                                        </a>
+                                    </p>
+                                </xsl:for-each>
+
+                                <xsl:if test="internship">
+                                    <h5>Internship</h5>
+
+                                    <ul>
+                                        <xsl:for-each select="internship">
+                                            <li><xsl:value-of select="organization/@name"/></li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </xsl:if>
+                            </xsl:for-each>
+                        </td>
+                    </tr>
                 </table>
             </body>
         </html>

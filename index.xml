@@ -11,19 +11,19 @@
     </skills>
 
     <experience title="Waiter" time="2006 Summer">
-        <company name="Çeşme Pecos Bar"/>
+        <organization name="Çeşme Pecos Bar"/>
     </experience>
 
     <experience title="Barmen" time="2007 Summer">
-        <company name="Alaçatı Otto Restaurant Bar" address="www.otto-restaurant.com"/>
+        <organization name="Alaçatı Otto Restaurant Bar" address="www.otto-restaurant.com"/>
     </experience>
 
     <experience title="Part Time Student Asistant" time="2007 - ...">
-        <company name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı" address="www.sks.itu.edu.tr"/>
+        <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı" address="www.sks.itu.edu.tr"/>
     </experience>
 
-    <experience title="Software Developer" time="2008-05-09 - 2010-06-01">
-        <company name="Ares Teknoloji Ticaret AŞ"/>
+    <experience title="Programmer" time="2008-05-09 - 2010-06-01">
+        <organization name="Ares Teknoloji Ticaret AŞ"/>
 
         <project name="Vademecum" address="vademecum-online.com.tr" description="a medicine database for Medical Tribune Turkey">
             <accomplishment>Modeling and development of the database</accomplishment>
@@ -44,7 +44,7 @@
     </experience>
 
     <experience title="Database Administrator" time="2011-01-06 - ...">
-        <company name="Tart İnternet Teknolojileri Ticaret AŞ" address="tart.com.tr"/>
+        <organization name="Tart İnternet Teknolojileri Ticaret AŞ" address="tart.com.tr"/>
 
         <project name="Playstore.com" address="playstore.com" description="an ecommerce application">
             <accomplishment>Modeling, development and administration of the databases</accomplishment>
@@ -73,5 +73,27 @@
             <accomplishment>Database basics lesson</accomplishment>
         </project>
     </experience>
+
+    <education title="High School" time="1994 - 2002" status="graduated">
+        <school name="İzmir Özel Türk Fen Lisesi" description="private science high school" address="www.ozelturkkoleji.com/lise/merkez-fen"/>
+    </education>
+
+    <education title="Undergraduate" time="2005 - 2012" status="suspended">
+        <school name="İstanbul Teknik Üniversitesi" description="public technical university" address="www.itu.edu.tr">
+            <faculty name="Maden Fakültesi" description="mine faculty" department="Mining Enginnering"/>
+        </school>
+
+        <internship time="2008-08-24 - 2008-08-29">
+            <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi" description="Turkish pit coal foundation underground coal mine establishment" address="www.taskomuru.gov.tr"/>
+        </internship>
+
+        <internship time="2010-08-16 - 2010-09-05">
+            <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area" address="www.kalemaden.com.tr"/>
+        </internship>
+
+        <project title="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi" description="slope stability analyse">
+            <organization name="Türkiye Kömür İşletmeleri Seyitömer Linyitleri İşletmesi Müdürlüğü" description="Turkish coal foundation brown coal quarry establishment" address="www.sli.gov.tr"/>
+        </project>
+    </education>
 </person>
 

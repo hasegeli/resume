@@ -32,14 +32,6 @@
             <accomplishment>Development a data correction panel for the database</accomplishment>
             <accomplishment>Development database model layer of the Vademecum Online</accomplishment>
             <accomplishment>Requirement analyse and development of the Vademecum Web Service</accomplishment>
-            <technology name="MySQL 5"/>
-            <technology name="PostgreSQL 8"/>
-            <technology name="PHP 5"/>
-            <technology name="WSDL"/>
-            <technology name="Apache HTTP Server 2"/>
-            <technology name="Apache Subversion"/>
-            <technology name="Magento"/>
-            <technology name="The Bug Genie"/>
         </project>
     </experience>
 
@@ -51,27 +43,18 @@
             <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
             <accomplishment>Migration of the content management system database from MySQL to PostgreSQL</accomplishment>
             <accomplishment>Monitoring setup for the PostgreSQL servers</accomplishment>
-            <technology name="Oracle Database 11g"/>
-            <technology name="Oracle SQL Developer Data Modeler"/>
-            <technology name="PostgreSQL 9"/>
-            <technology name="Apache Solr"/>
-            <technology name="Nagios"/>
-            <technology name="Drupal 6"/>
         </project>
                     
-        <project name="Tuttur.com" address="tuttur.com" description="a betting service">
+        <project name="Tuttur.com" address="tuttur.com" description="a social online betting service">
             <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB, Apache Solr servers</accomplishment>
             <accomplishment>Development and administration of the databases</accomplishment>
-            <technology name="MySQL 5"/>
-            <technology name="MongoDB 2"/>
-            <technology name="Apache Solr"/>
-            <technology name="Nagios"/>
-            <technology name="EMC VNX Series"/>
         </project>
 
         <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
             <accomplishment>Database basics lesson</accomplishment>
         </project>
+
+        <project name="Motop" address="github.com.tr/tart/motop" description="realtime monitoring tool for several MongoDB servers"/>
     </experience>
 
     <education title="High School" time="1994 - 2002" status="graduated">

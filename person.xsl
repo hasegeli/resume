@@ -56,11 +56,14 @@
                                     <p><xsl:value-of select="@title"/></p>
                                 </blockquote>
 
-                                <ul>
-                                    <xsl:for-each select="skill">
-                                        <li><xsl:value-of select="@name"/></li>
-                                    </xsl:for-each>
-                                </ul>
+                                <xsl:for-each select="project">
+                                    <h6><xsl:value-of select="@name"/></h6>
+                                    <ul>
+                                        <xsl:for-each select="accomplishment">
+                                            <li><xsl:value-of select="."/></li>
+                                        </xsl:for-each>
+                                    </ul>
+                                </xsl:for-each>
                             </xsl:for-each>
                         </td>
                     </tr>

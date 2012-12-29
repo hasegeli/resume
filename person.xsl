@@ -43,6 +43,7 @@
 
         <blockquote>
             <xsl:for-each select="job">
+                <xsl:sort select="@time" order="descending"/>
                 <p><xsl:value-of select="@time"/></p>
                 <p><xsl:value-of select="@title"/></p>
                 <blockquote><xsl:apply-templates/></blockquote>

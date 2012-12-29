@@ -47,8 +47,10 @@
             </project>
 
             <project name="Tuttur.com" address="tuttur.com" description="a social online betting service">
-                <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB, Apache Solr servers</accomplishment>
                 <accomplishment>Development and administration of the databases</accomplishment>
+                <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
+                <accomplishment>Performance tunning for the MySQL servers</accomplishment>
+                <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB, Apache Solr servers</accomplishment>
             </project>
 
             <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
@@ -198,8 +200,7 @@
         </item>
 
         <item name="Git">
-            <usage name="Software Development" level="Beginner" year="2"/>
-            <usage name="Database Development" level="Intermediate" year="2"/>
+            <usage name="Software Development" level="Beginner" year="3"/>
             <usage name="Server Administration" level="Intermediate" year="2"/>
         </item>
 

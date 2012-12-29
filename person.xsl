@@ -159,6 +159,8 @@
         <h5><xsl:value-of select="@name"/></h5>
 
         <blockquote>
+            <p><xsl:value-of select="@description"/></p>
+
             <p>
                 <a><xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
                     <xsl:value-of select="@address"/>

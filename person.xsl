@@ -56,6 +56,7 @@
 
         <blockquote>
             <xsl:for-each select="school">
+                <xsl:sort select="@time" order="descending"/>
                 <p><xsl:value-of select="@time"/></p>
                 <p><xsl:value-of select="@department"/></p>
                 <h4><xsl:value-of select="@name"/></h4>
@@ -166,6 +167,18 @@
                     <xsl:value-of select="@address"/>
                 </a>
             </p>
+        </blockquote>
+    </xsl:template>
+
+    <xsl:template match="voluntariness">
+        <h3>Voluntarines</h3>
+
+        <blockquote>
+            <xsl:for-each select="member">
+                <xsl:sort select="@time" order="descending"/>
+                <p><xsl:value-of select="@time"/></p>
+                <blockquote><xsl:apply-templates/></blockquote>
+            </xsl:for-each>
         </blockquote>
     </xsl:template>
 </xsl:stylesheet>

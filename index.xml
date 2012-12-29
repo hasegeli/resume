@@ -235,4 +235,33 @@
 
         <license name="Turkish Driving License"/>
     </knowledge>
+
+    <voluntariness>
+        <member time="2006 - 2012">
+            <organization name="İTÜ Maden Mühendisliği Kulübü" address="madenmk.itu.edu.tr"
+                    description="mining enginnering student association"/>
+
+            <project name="Kazdağlarında Altın Arama Semineri"
+                    description="technical seminer about gold mining in Turkey"/>
+
+            <project name="Bergama Teknik Gezisi"
+                    description="technical trip to the gold mine of Koza Altın in Turkey"/>
+
+            <project name="Soma Teknik Gezisi"
+                    description="technical trip to the brown coal mine of TKI in Turkey"/>
+
+            <project name="Zonguldak Teknik Gezisi"
+                    description="technical trip to the Armutçuk institution of TTK in Turkey"/>
+        </member>
+
+        <member time="2010 - ...">
+            <organization name="Türkiye Linux Kullanıcıları Derneği" address="lkd.org.tr"
+                    description="Turkish Linux users association"/>
+
+            <project name="Özgür Yazılım ve Linux Günleri 2011" address="seminer.linux.org.tr"
+                    description="free software and Linux days organized by the association every year">
+                <accomplishment>Seminer about software development methodologies</accomplishment>
+            </project>
+        </member>
+    </voluntariness>
 </person>

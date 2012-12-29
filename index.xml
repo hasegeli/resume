@@ -20,13 +20,15 @@
         </job>
 
         <job title="Part Time Student Asistant" time="2007 - ...">
-            <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı" address="www.sks.itu.edu.tr"/>
+            <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı"
+                    address="www.sks.itu.edu.tr"/>
         </job>
 
         <job title="Programmer" time="2008-05-09 - 2010-06-01">
             <organization name="Ares Teknoloji Ticaret AŞ"/>
 
-            <project name="Vademecum" address="vademecumonline.com.tr" description="a medicine database for Medical Tribune Turkey">
+            <project name="Vademecum" address="vademecumonline.com.tr"
+                    description="a medicine database for Medical Tribune Turkey">
                 <accomplishment>Modeling and development of the database</accomplishment>
                 <accomplishment>Migration of the data from a book to MySQL</accomplishment>
                 <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
@@ -42,7 +44,7 @@
             <project name="Playstore.com" address="playstore.com" description="an ecommerce application">
                 <accomplishment>Modeling, development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
-                <accomplishment>Migration of the content management system database from MySQL to PostgreSQL</accomplishment>
+                <accomplishment>Migration of the content database from MySQL to PostgreSQL</accomplishment>
                 <accomplishment>Monitoring setup for the PostgreSQL servers</accomplishment>
             </project>
 
@@ -50,30 +52,37 @@
                 <accomplishment>Development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
                 <accomplishment>Performance tunning for the MySQL servers</accomplishment>
-                <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB, Apache Solr servers</accomplishment>
+                <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB servers</accomplishment>
             </project>
 
             <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
                 <accomplishment>Database basics lesson</accomplishment>
             </project>
 
-            <project name="Motop" address="github.com/tart/motop" description="realtime monitoring tool for several MongoDB servers"/>
+            <project name="Motop" address="github.com/tart/motop"
+                    description="realtime monitoring tool for several MongoDB servers"/>
         </job>
     </experience>
 
     <education>
-        <school name="İzmir Özel Türk Fen Lisesi" time="2002 - 2005" description="private science high school" address="www.ozelturkkoleji.com/lise/merkez-fen"/>
+        <school name="İzmir Özel Türk Fen Lisesi" time="2002 - 2005" description="private science high school"
+                address="www.ozelturkkoleji.com/lise/merkez-fen"/>
 
-        <school name="İstanbul Teknik Üniversitesi" time="2005 - 2012 suspended" department="Mining Enginnering" description="public technical university" address="www.itu.edu.tr">
+        <school name="İstanbul Teknik Üniversitesi" time="2005 - 2012 suspended" department="Mining Enginnering"
+                description="public technical university" address="www.itu.edu.tr">
             <internship title="Underground Mine" time="2008-08-24 - 2008-08-29">
-                <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi" description="Turkish pit coal foundation underground coal mine establishment" address="www.taskomuru.gov.tr"/>
+                <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi"
+                        description="Turkish pit coal foundation underground coal mine establishment"
+                        address="www.taskomuru.gov.tr"/>
             </internship>
 
             <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
-                <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area" address="www.kalemaden.com.tr"/>
+                <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area"
+                        address="www.kalemaden.com.tr"/>
             </internship>
 
-            <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi" description="slope stability analyse"/>
+            <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi"
+                    description="slope stability analyse"/>
         </school>
     </education>
 
@@ -159,7 +168,8 @@
         </item>
 
         <course name="Programming with C#">
-            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
+                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
         </course>
     </knowledge>
 
@@ -190,7 +200,8 @@
         </item>
 
         <course name="SQL Server 2005 Database Administration">
-            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy" address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
+            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
+                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
         </course>
     </knowledge>
 

@@ -1,0 +1,18 @@
+table
+{
+    margin: .8em;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th
+{
+    padding: .4em .6em .6em 1em;
+    border-bottom: 1px solid #444;
+}
+
+td
+{
+    padding: .6em .8em .4em .6em;
+    border-top: 1px dashed #888;
+}

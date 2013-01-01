@@ -10,6 +10,7 @@
         <html>
             <head>
                 <title><xsl:value-of select="@name"/></title>
+                <link rel="stylesheet" type="text/css" href="person.css"/>
             </head>
 
             <body>
@@ -89,7 +90,7 @@
         <h3><xsl:value-of select="@about"/></h3>
 
         <blockquote>
-            <table border="1">
+            <table>
                 <tr>
                     <th></th>
                     <th>Usage</th>

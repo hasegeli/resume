@@ -69,8 +69,6 @@
                         </a>
                     </p>
 
-                    <xsl:apply-templates/>
-
                     <xsl:if test="internship">
                         <p>Internships:</p>
 

@@ -19,7 +19,7 @@
             <organization name="Alaçatı Otto Restaurant Bar" address="www.otto-restaurant.com"/>
         </job>
 
-        <job title="Part Time Student Asistant" time="2007 - ...">
+        <job title="Part Time Student Asistant" time="2007 - 2013">
             <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı"
                     address="www.sks.itu.edu.tr"/>
         </job>
@@ -44,18 +44,43 @@
         <job title="Database Administrator" time="2011-01-06 - ...">
             <organization name="Tart İnternet Teknolojileri Ticaret AŞ" address="tart.com.tr"/>
 
+            <organization name="Girişim Mutfağı Kuluçka Merkezi Teknoloji Hizmetleri AŞ" address="startup.kitchen"/>
+
             <project name="Playstore.com" address="playstore.com" description="an ecommerce application">
                 <accomplishment>Modeling, development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
                 <accomplishment>Migration of the content database from MySQL to PostgreSQL</accomplishment>
                 <accomplishment>Monitoring setup for the PostgreSQL servers</accomplishment>
+                <accomplishment>Transfering development, maintenance and administration to another team</accomplishment>
             </project>
 
             <project name="Tuttur.com" address="tuttur.com" description="a social online betting service">
                 <accomplishment>Development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
                 <accomplishment>Performance tunning for the MySQL servers</accomplishment>
-                <accomplishment>Monitoring setup for the PostgreSQL, MySQL, MongoDB servers</accomplishment>
+                <accomplishment>Monitoring setup for the servers</accomplishment>
+                <accomplishment>Incident management and notification setup</accomplishment>
+                <accomplishment>Identitity management system implementation</accomplishment>
+                <accomplishment>Centralised logging system implementation</accomplishment>
+                <accomplishment>Upgrading storage hardware</accomplishment>
+                <accomplishment>Planing data integrity improvements</accomplishment>
+                <accomplishment>Deployment and configuration management system development</accomplishment>
+                <accomplishment>Transfering development, maintenance and administration to another team</accomplishment>
+            </project>
+
+            <project name="İşte Oyun" address="isteoyun.com" description="a gamification server">
+                <accomplishment>Monitoring setup for the servers</accomplishment>
+                <accomplishment>Deployment and configuration management system application</accomplishment>
+            </project>
+
+            <project name="Kixel World of Soccer" address="kixel.co" description="a game on Facebook">
+                <accomplishment>Deployment to Amazon Web Services</accomplishment>
+                <accomplishment>Maintenance of the servers</accomplishment>
+            </project>
+
+            <project name="Sihirhosting" address="sihirhosting.com" description="Internet hosting provider">
+                <accomplishment>Migration of the domain name servers from BIND to Unbound and NSD</accomplishment>
+                <accomplishment>Monitoring setup for the servers</accomplishment>
             </project>
 
             <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
@@ -64,6 +89,12 @@
 
             <project name="Motop" address="github.com/tart/motop"
                     description="realtime monitoring tool for several MongoDB servers"/>
+
+            <project name="tart-integration" address="github.com/tart/tart-integration"
+                    description="an integration tool for incident management"/>
+
+            <project name="tart-mailer" address="github.com/tart/tart-mailer"
+                    description="an application to send emails"/>
         </job>
     </experience>
 
@@ -120,27 +151,34 @@
 
         <item name="Ubuntu Linux">
             <usage name="Personal" level="Advanced" year="4"/>
-            <usage name="Server Administration" level="Intermediate" year="2"/>
+            <usage name="Server" level="Intermediate" year="2"/>
         </item>
 
         <item name="Debian GNU/Linux">
-            <usage name="Server Administration" level="Intermediate" year="2"/>
+            <usage name="Server" level="Intermediate" year="4"/>
         </item>
 
         <item name="Red Hat Enterprise Linux">
-            <usage name="Server Administration" level="Intermediate" year="2"/>
+            <usage name="Server" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="CentOS">
+            <usage name="Server" level="Intermediate" year="3"/>
         </item>
 
         <item name="FreeBSD">
             <usage name="Personal" level="Beginner" year="2"/>
+            <usage name="Server" level="Beginner" year="1"/>
         </item>
 
         <item name="OpenBSD">
-            <usage name="Personal" level="Beginner" year="1"/>
+            <usage name="Personal" level="Intermediate" year="2"/>
+            <usage name="Firewall" level="Beginner" year="2"/>
         </item>
 
         <item name="Mac OS X">
-            <usage name="Personal" level="Beginner" year="1"/>
+            <usage name="Personal" level="Intermediate" year="3"/>
+            <usage name="Server" level="Beginner" year="1"/>
         </item>
     </knowledge>
 
@@ -150,20 +188,29 @@
         </item>
 
         <item name="SQL">
-            <usage name="Database Development" level="Advanced" year="5"/>
+            <usage name="Database Development" level="Advanced" year="6"/>
         </item>
 
         <item name="PHP">
-            <usage name="Web Site Backend Development" level="Advanced" year="5"/>
+            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
         </item>
 
         <item name="Python">
-            <usage name="Web Site Backend Development" level="Beginner" year="2"/>
+            <usage name="Web Application Backend Development" level="Intermediate" year="3"/>
             <usage name="Server Administration" level="Intermediate" year="3"/>
+        </item>
+
+        <item name="Bash">
+            <usage name="Server Administration" level="Advanced" year="3"/>
+        </item>
+
+        <item name="JavaScript">
+            <usage name="Web Application Backend Development" level="Beginner" year="1"/>
         </item>
 
         <item name="C">
             <usage name="Server Administration" level="Beginner" year="1"/>
+            <usage name="Database Management System Development" level="Beginner" year="1"/>
         </item>
 
         <item name="Perl">
@@ -179,31 +226,31 @@
     <knowledge about="Database Management Systems">
         <item name="MySQL">
             <usage name="Querying" level="Advanced" year="5"/>
-            <usage name="Database Development" level="Advanced" year="5"/>
-            <usage name="Server Administration" level="Advanced" year="5"/>
+            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
+            <usage name="Server" level="Advanced" year="5"/>
         </item>
 
         <item name="PostgreSQL">
-            <usage name="Querying" level="Advanced" year="4"/>
-            <usage name="Database Development" level="Advanced" year="4"/>
-            <usage name="Server Administration" level="Intermediate" year="2"/>
+            <usage name="Querying" level="Advanced" year="6"/>
+            <usage name="Web Application Backend Development" level="Advanced" year="6"/>
+            <usage name="Server" level="Intermediate" year="3"/>
         </item>
 
         <item name="MongoDB">
-            <usage name="Querying" level="Advanced" year="1"/>
-            <usage name="Server Administration" level="Advanced" year="1"/>
+            <usage name="Querying" level="Advanced" year="2"/>
+            <usage name="Server" level="Advanced" year="2"/>
         </item>
 
         <item name="Redis">
-            <usage name="Server Administration" level="Beginner" year="1"/>
+            <usage name="Caching Server" level="Intermediate" year="1"/>
         </item>
 
         <item name="Apache Solr">
-            <usage name="Server Administration" level="Intermediate" year="1"/>
+            <usage name="Server" level="Beginner" year="1"/>
         </item>
 
         <item name="OpenLDAP">
-            <usage name="Server Administration" level="Intermediate" year="1"/>
+            <usage name="Server" level="Intermediate" year="2"/>
         </item>
 
         <course name="SQL Server 2005 Database Administration">
@@ -212,14 +259,89 @@
         </course>
     </knowledge>
 
+    <knowledge about="Services">
+        <item name="Apache HTTP Server">
+            <usage name="HTTP Server" level="Beginner" year="3"/>
+        </item>
+
+        <item name="Nginx">
+            <usage name="HTTP Server" level="Intermediate" year="3"/>
+            <usage name="HTTP Reverse Proxy" level="Intermediate" year="3"/>
+        </item>
+
+        <item name="Rsyslog">
+            <usage name="Central Logging Server" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="Net-SNMP">
+            <usage name="Monitoring Agent" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="Nagios">
+            <usage name="Monitoring" level="Advanced" year="3"/>
+        </item>
+
+        <item name="Unbound">
+            <usage name="Server" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="BIND">
+            <usage name="Server" level="Beginner" year="1"/>
+        </item>
+
+        <item name="NSD">
+            <usage name="Server" level="Intermediate" year="1"/>
+        </item>
+
+        <item name="RabbitMQ">
+            <usage name="Development" level="Intermediate" year="1"/>
+            <usage name="Server" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="OpenSSH">
+            <usage name="Server" level="Intermediate" year="2"/>
+        </item>
+
+        <item name="OpenSMTP">
+            <usage name="Server" level="Intermediate" year="1"/>
+        </item>
+
+        <item name="Postfix">
+            <usage name="Server" level="Beginner" year="1"/>
+        </item>
+    </knowledge>
+
+    <knowledge about="Frameworks">
+        <item name="Symfony">
+            <usage name="Web Application Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Propel">
+            <usage name="Web Application Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Django">
+            <usage name="Web Application Development" level="Beginner" year="2"/>
+        </item>
+
+        <item name="Bottle">
+            <usage name="Web Application Development" level="Intermediate" year="1"/>
+        </item>
+
+        <item name="Flask">
+            <usage name="Web Application Development" level="Intermediate" year="1"/>
+        </item>
+    </knowledge>
+
     <knowledge about="Version Control Systems">
         <item name="Apache Subversion">
             <usage name="Software Development" level="Intermediate" year="3"/>
         </item>
 
         <item name="Git">
-            <usage name="Software Development" level="Beginner" year="3"/>
-            <usage name="Server Administration" level="Intermediate" year="2"/>
+            <usage name="Database Development" level="Advanced" year="2"/>
+            <usage name="Software Development" level="Advanced" year="3"/>
+            <usage name="Server Administration" level="Advanced" year="3"/>
         </item>
 
         <item name="GNU Bazaar">
@@ -265,6 +387,11 @@
             <project name="Özgür Yazılım ve Linux Günleri 2011" address="seminer.linux.org.tr"
                     description="free software and Linux days organized by the association every year">
                 <accomplishment>Seminer about software development methodologies</accomplishment>
+            </project>
+
+            <project name="Özgür Yazılım ve Linux Günleri 2013" address="seminer.linux.org.tr"
+                    description="free software and Linux days organized by the association every year">
+                <accomplishment>Seminer about replication, sharding techniques</accomplishment>
             </project>
         </member>
     </voluntariness>

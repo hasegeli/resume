@@ -117,7 +117,7 @@
         </school>
     </education>
 
-    <knowledge about="Languages">
+    <knowledge about="Natural Languages">
         <item name="Turkish">
             <usage name="Mother Tongue" level="Advanced" year="24"/>
         </item>
@@ -131,6 +131,47 @@
         <item name="Latin">
             <usage name="Reading" level="Beginner" year="2"/>
         </item>
+    </knowledge>
+
+    <knowledge about="Programming Languages">
+        <item name="Pascal">
+            <usage name="Game Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="SQL">
+            <usage name="Database Development" level="Advanced" year="6"/>
+        </item>
+
+        <item name="PHP">
+            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
+        </item>
+
+        <item name="Python">
+            <usage name="Web Application Backend Development" level="Intermediate" year="3"/>
+            <usage name="Server Administration" level="Intermediate" year="3"/>
+        </item>
+
+        <item name="Bash">
+            <usage name="Server Administration" level="Advanced" year="3"/>
+        </item>
+
+        <item name="JavaScript">
+            <usage name="Web Application Backend Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="C">
+            <usage name="Server Administration" level="Beginner" year="1"/>
+            <usage name="Database Management System Development" level="Beginner" year="1"/>
+        </item>
+
+        <item name="Perl">
+            <usage name="Server Administration" level="Beginner" year="2"/>
+        </item>
+
+        <course name="Programming with C#">
+            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
+                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+        </course>
     </knowledge>
 
     <knowledge about="Operating Systems">
@@ -177,47 +218,6 @@
             <usage name="Personal" level="Intermediate" year="3"/>
             <usage name="Server" level="Beginner" year="1"/>
         </item>
-    </knowledge>
-
-    <knowledge about="Programming Languages">
-        <item name="Pascal">
-            <usage name="Game Development" level="Beginner" year="1"/>
-        </item>
-
-        <item name="SQL">
-            <usage name="Database Development" level="Advanced" year="6"/>
-        </item>
-
-        <item name="PHP">
-            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
-        </item>
-
-        <item name="Python">
-            <usage name="Web Application Backend Development" level="Intermediate" year="3"/>
-            <usage name="Server Administration" level="Intermediate" year="3"/>
-        </item>
-
-        <item name="Bash">
-            <usage name="Server Administration" level="Advanced" year="3"/>
-        </item>
-
-        <item name="JavaScript">
-            <usage name="Web Application Backend Development" level="Beginner" year="1"/>
-        </item>
-
-        <item name="C">
-            <usage name="Server Administration" level="Beginner" year="1"/>
-            <usage name="Database Management System Development" level="Beginner" year="1"/>
-        </item>
-
-        <item name="Perl">
-            <usage name="Server Administration" level="Beginner" year="2"/>
-        </item>
-
-        <course name="Programming with C#">
-            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
-                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
-        </course>
     </knowledge>
 
     <knowledge about="Database Management Systems">

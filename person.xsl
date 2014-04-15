@@ -102,7 +102,7 @@
                             <td><xsl:value-of select="../@name"/></td>
                             <td><xsl:value-of select="@name"/></td>
                             <td><xsl:value-of select="@level"/></td>
-                            <td><xsl:value-of select="@year"/> year</td>
+                            <td><xsl:value-of select="@year"/> year<xsl:if test="@year &gt; 1">s</xsl:if></td>
                         </tr>
                     </xsl:for-each>
                 </xsl:for-each>

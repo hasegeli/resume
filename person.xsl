@@ -128,6 +128,26 @@
                     </xsl:for-each>
                 </blockquote>
             </xsl:if>
+
+            <xsl:if test="contribution">
+                <p>Contributions:</p>
+
+                <blockquote>
+                    <xsl:for-each select="contribution">
+                        <p><xsl:value-of select="@name"/></p>
+
+                        <blockquote>
+                            <p><xsl:value-of select="@description"/></p>
+
+                            <p>
+                                <a><xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
+                                    <xsl:value-of select="@address"/>
+                                </a>
+                            </p>
+                        </blockquote>
+                    </xsl:for-each>
+                </blockquote>
+            </xsl:if>
         </blockquote>
     </xsl:template>
 

@@ -388,14 +388,10 @@
             <organization name="Türkiye Linux Kullanıcıları Derneği" address="lkd.org.tr"
                     description="Turkish Linux users association"/>
 
-            <project name="Özgür Yazılım ve Linux Günleri 2011" address="seminer.linux.org.tr"
+            <project name="Özgür Yazılım ve Linux Günleri" address="seminer.linux.org.tr"
                     description="free software and Linux days organized by the association every year">
-                <accomplishment>Seminer about software development methodologies</accomplishment>
-            </project>
-
-            <project name="Özgür Yazılım ve Linux Günleri 2013" address="seminer.linux.org.tr"
-                    description="free software and Linux days organized by the association every year">
-                <accomplishment>Seminer about replication, sharding techniques</accomplishment>
+                <accomplishment>Seminer about software development methodologies on 2011</accomplishment>
+                <accomplishment>Seminer about replication, sharding techniques on 2013</accomplishment>
             </project>
         </member>
     </voluntariness>

@@ -2,7 +2,8 @@
 <?xml-stylesheet type="text/xsl" href="person.xsl"?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com">
-    <skills about="Software Engineering">
+    <skills>
+        <skill name="System Administration"/>
         <skill name="Database Administration"/>
         <skill name="Database Modelling"/>
         <skill name="Database Development"/>

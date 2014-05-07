@@ -30,7 +30,7 @@
     </xsl:template>
 
     <xsl:template match="skills">
-        <h3><xsl:value-of select="@about"/> Skills</h3>
+        <h3>Skills</h3>
 
         <ul>
             <xsl:for-each select="skill">

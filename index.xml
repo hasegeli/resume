@@ -136,19 +136,15 @@
 
     <knowledge about="Programming Languages">
         <item name="Pascal">
-            <usage name="Game Development" level="Beginner" year="1"/>
-        </item>
-
-        <item name="SQL">
-            <usage name="Database Development" level="Advanced" year="6"/>
+            <usage name="Personal" level="Beginner" year="1"/>
         </item>
 
         <item name="PHP">
-            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
+            <usage name="Web Application Backend" level="Advanced" year="5"/>
         </item>
 
         <item name="Python">
-            <usage name="Web Application Backend Development" level="Intermediate" year="3"/>
+            <usage name="Web Application Backend" level="Intermediate" year="3"/>
             <usage name="Server Administration" level="Intermediate" year="3"/>
         </item>
 
@@ -157,12 +153,12 @@
         </item>
 
         <item name="JavaScript">
-            <usage name="Web Application Backend Development" level="Beginner" year="1"/>
+            <usage name="Web Application Backend" level="Beginner" year="1"/>
         </item>
 
         <item name="C">
             <usage name="Server Administration" level="Beginner" year="1"/>
-            <usage name="Database Management System Development" level="Beginner" year="1"/>
+            <usage name="Database Management System" level="Beginner" year="1"/>
         </item>
 
         <item name="Perl">
@@ -224,13 +220,13 @@
     <knowledge about="Database Management Systems">
         <item name="MySQL">
             <usage name="Querying" level="Advanced" year="5"/>
-            <usage name="Web Application Backend Development" level="Advanced" year="5"/>
+            <usage name="Web Application Backend" level="Advanced" year="5"/>
             <usage name="Server" level="Advanced" year="5"/>
         </item>
 
         <item name="PostgreSQL">
             <usage name="Querying" level="Advanced" year="6"/>
-            <usage name="Web Application Backend Development" level="Advanced" year="6"/>
+            <usage name="Web Application Backend" level="Advanced" year="6"/>
             <usage name="Server" level="Intermediate" year="3"/>
         </item>
 
@@ -318,23 +314,23 @@
 
     <knowledge about="Frameworks">
         <item name="Symfony">
-            <usage name="Web Application Development" level="Beginner" year="1"/>
+            <usage name="Web Application" level="Beginner" year="1"/>
         </item>
 
         <item name="Propel">
-            <usage name="Web Application Development" level="Beginner" year="1"/>
+            <usage name="Web Application" level="Beginner" year="1"/>
         </item>
 
         <item name="Django">
-            <usage name="Web Application Development" level="Beginner" year="2"/>
+            <usage name="Web Application" level="Beginner" year="2"/>
         </item>
 
         <item name="Bottle">
-            <usage name="Web Application Development" level="Intermediate" year="1"/>
+            <usage name="Web Application" level="Intermediate" year="1"/>
         </item>
 
         <item name="Flask">
-            <usage name="Web Application Development" level="Intermediate" year="1"/>
+            <usage name="Web Application" level="Intermediate" year="1"/>
         </item>
     </knowledge>
 
@@ -346,7 +342,7 @@
         <item name="Git">
             <usage name="Database Development" level="Advanced" year="2"/>
             <usage name="Software Development" level="Advanced" year="3"/>
-            <usage name="Server Administration" level="Advanced" year="3"/>
+            <usage name="Configuration Management" level="Advanced" year="3"/>
         </item>
 
         <item name="GNU Bazaar">

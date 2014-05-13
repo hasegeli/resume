@@ -71,7 +71,7 @@
 
             <project name="İşte Oyun" address="isteoyun.com" description="a gamification server">
                 <accomplishment>Monitoring setup for the servers</accomplishment>
-                <accomplishment>Deployment and configuration management system application</accomplishment>
+                <accomplishment>Deployment and configuration management system development</accomplishment>
             </project>
 
             <project name="Kixel World of Soccer" address="kixel.co" description="a game on Facebook">

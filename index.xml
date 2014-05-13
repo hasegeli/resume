@@ -215,6 +215,10 @@
             <usage name="Personal" level="Intermediate" year="3"/>
             <usage name="Server" level="Beginner" year="1"/>
         </item>
+
+        <item name="VMWare ESX">
+            <usage name="Virtualization Platform" level="Intermediate" year="3"/>
+        </item>
     </knowledge>
 
     <knowledge about="Database Management Systems">

@@ -88,10 +88,10 @@
                 <accomplishment>Database basics lesson</accomplishment>
             </project>
 
-            <project name="tart-integration" address="github.com/tart/tart-integration"
+            <project name="Tart-Integration" address="github.com/tart/tart-integration"
                     description="an integration tool for incident management"/>
 
-            <project name="tart-mailer" address="github.com/tart/tart-mailer"
+            <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
                     description="an application to send emails"/>
         </job>
     </experience>

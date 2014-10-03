@@ -69,21 +69,6 @@
                 <accomplishment>Transfering development, maintenance and administration to another team</accomplishment>
             </project>
 
-            <project name="İşte Oyun" address="isteoyun.com" description="a gamification server">
-                <accomplishment>Monitoring setup for the servers</accomplishment>
-                <accomplishment>Deployment and configuration management system development</accomplishment>
-            </project>
-
-            <project name="Kixel World of Soccer" address="kixel.co" description="a game on Facebook">
-                <accomplishment>Deployment to Amazon Web Services</accomplishment>
-                <accomplishment>Maintenance of the servers</accomplishment>
-            </project>
-
-            <project name="Sihirhosting" address="sihirhosting.com" description="Internet hosting provider">
-                <accomplishment>Migration of the domain name servers from BIND to Unbound and NSD</accomplishment>
-                <accomplishment>Monitoring setup for the servers</accomplishment>
-            </project>
-
             <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
                 <accomplishment>Database basics lesson</accomplishment>
             </project>
@@ -93,6 +78,24 @@
 
             <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
                     description="an application to send emails"/>
+
+            <project name="İşte Oyun" address="isteoyun.com" description="a gamification server">
+                <accomplishment>Monitoring setup for the servers</accomplishment>
+                <accomplishment>Deployment and configuration management system development</accomplishment>
+                <accomplishment>Maintenance and documentation of the API</accomplishment>
+            </project>
+
+            <project name="Kixel World of Soccer" address="kixel.co" description="a game on Facebook">
+                <accomplishment>Deployment to Amazon Web Services</accomplishment>
+                <accomplishment>Maintenance of the servers</accomplishment>
+            </project>
+
+            <project name="Sihirhosting" address="sihirhosting.com" description="Internet hosting provider">
+                <accomplishment>Migration of the domain name servers from BIND to Unbound and NSD</accomplishment>
+                <accomplishment>Migration of the email servers from Qmail to Postfix</accomplishment>
+                <accomplishment>Monitoring setup for the servers</accomplishment>
+                <accomplishment>Network redesign and application</accomplishment>
+            </project>
         </job>
     </experience>
 

@@ -256,7 +256,11 @@
 
         <contribution name="GiST support for inet/cidr types of PostgreSQL"
                 description="A new in-core GiST index operator class for IP address types to be released with PostgreSQL 9.4"
-                address="git.postgresql.org/gitweb/?p=postgresql.git;a=commit;h=f23a5630ebc797219b62797f566dec9f65090e03"/>
+                address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=f23a5630ebc797219b62797f566dec9f65090e03"/>
+
+        <contribution name="Selectivity estimation of inet/cidr types of PostgreSQL"
+                description="Develop selectivity estimation functions of IP address operators to be released with PostgreSQL 9.5"
+                address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=89840d7d3fa943cb932f6a00707fdb17a9cab001"/>
     </knowledge>
 
     <knowledge about="Services">

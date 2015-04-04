@@ -21,3 +21,11 @@ td
     padding: .6em .8em .4em .6em;
     border-top: 1px dashed #888;
 }
+
+.time
+{
+    line-height: 50%;
+    vertical-align: sub;
+    font-size: smaller;
+    text-decoration: underline;
+}

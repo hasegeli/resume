@@ -12,7 +12,7 @@
         <html>
             <head>
                 <title><xsl:value-of select="@name"/></title>
-                <link rel="stylesheet" type="text/css" href="person.css"/>
+                <link rel="stylesheet" type="text/css" href="common.css"/>
             </head>
 
             <body>
@@ -70,17 +70,6 @@
                             <xsl:value-of select="@address"/>
                         </a>
                     </p>
-
-                    <xsl:if test="internship">
-                        <p>Internships:</p>
-
-                        <blockquote>
-                            <xsl:for-each select="internship">
-                                <p><xsl:value-of select="@title"/></p>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
-                        </blockquote>
-                    </xsl:if>
                 </blockquote>
             </xsl:for-each>
         </blockquote>
@@ -129,17 +118,6 @@
                         <li><xsl:value-of select="@name"/></li>
                     </xsl:for-each>
                 </ul>
-            </xsl:if>
-
-            <xsl:if test="course">
-                <p>Courses:</p>
-
-                <blockquote>
-                    <xsl:for-each select="course">
-                        <p><xsl:value-of select="@name"/></p>
-                        <xsl:apply-templates/>
-                    </xsl:for-each>
-                </blockquote>
             </xsl:if>
 
             <xsl:if test="contribution">

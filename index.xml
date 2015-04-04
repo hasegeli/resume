@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="person.xsl"?>
+<?xml-stylesheet type="text/xsl" href="brief.xsl" title="Brief" ?>
+<?xml-stylesheet type="text/xsl" href="full.xsl" title="Full" alternate="yes" ?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com" year="2015">
     <skills>

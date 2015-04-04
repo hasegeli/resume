@@ -97,6 +97,19 @@
                 <accomplishment>Network redesign and application</accomplishment>
             </project>
         </job>
+
+        <job title="Consultant" time="2014-09-01 - 2014-12-31">
+            <project name="Emlak Jet" address="emlakjet.com" description="a private listing application">
+                <accomplishment>Modeling and development of the database of the new version of the application</accomplishment>
+                <accomplishment>Design and development of MySQL to PostgreSQL replication application</accomplishment>
+                <accomplishment>Implementation of the new text search and auto-complete functions</accomplishment>
+            </project>
+
+            <project name="Yaşar Holding PostgreSQL Training" address="www.astron.ws" description="IT company of an holding">
+                <accomplishment>Full day PostgreSQL training for system administrators and managers</accomplishment>
+                <accomplishment>Three day PostgreSQL workshop for Java developers</accomplishment>
+            </project>
+        </job>
     </experience>
 
     <education>

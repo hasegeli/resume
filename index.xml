@@ -48,7 +48,7 @@
 
             <organization name="Girişim Mutfağı Kuluçka Merkezi Teknoloji Hizmetleri AŞ" address="startup.kitchen"/>
 
-            <project name="Playstore.com" address="playstore.com" description="an ecommerce application">
+            <project name="Playstore.com" address="playstore.com" description="an e-commerce application">
                 <accomplishment>Modeling, development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
                 <accomplishment>Migration of the content database from MySQL to PostgreSQL</accomplishment>

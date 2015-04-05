@@ -62,7 +62,7 @@
                 <xsl:sort select="@time" order="descending"/>
                 <p class="time"><xsl:value-of select="@time"/></p>
                 <p><xsl:value-of select="@department"/></p>
-                <h4><xsl:value-of select="@name"/></h4>
+                <h5><xsl:value-of select="@name"/></h5>
 
                 <blockquote>
                     <p>
@@ -111,7 +111,7 @@
             </table>
 
             <xsl:if test="license">
-                <p>Licenses:</p>
+                <h4>Licenses</h4>
 
                 <ul>
                     <xsl:for-each select="license">
@@ -121,7 +121,7 @@
             </xsl:if>
 
             <xsl:if test="contribution">
-                <p>Contributions:</p>
+                <h4>Contributions</h4>
 
                 <blockquote>
                     <xsl:for-each select="contribution">

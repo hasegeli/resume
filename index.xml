@@ -12,6 +12,28 @@
         <skill name="Technical Documentation"/>
     </skills>
 
+    <education>
+        <school name="İzmir Özel Türk Fen Lisesi" time="2002 - 2005" description="private science high school"
+                address="www.ozelturkkoleji.com/lise/merkez-fen"/>
+
+        <school name="İstanbul Teknik Üniversitesi" time="2005 - 2012 suspended" department="Mining Enginnering"
+                description="public technical university" address="www.itu.edu.tr">
+            <internship title="Underground Mine" time="2008-08-24 - 2008-08-29">
+                <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi"
+                        description="Turkish pit coal foundation underground coal mine establishment"
+                        address="www.taskomuru.gov.tr"/>
+            </internship>
+
+            <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
+                <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area"
+                        address="www.kalemaden.com.tr"/>
+            </internship>
+
+            <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi"
+                    description="slope stability analyse"/>
+        </school>
+    </education>
+
     <experience>
         <job title="Part Time Student Asistant" time="2007 - 2013">
             <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı"
@@ -113,28 +135,6 @@
             <project name="Elvenar" address="www.elvenar.com" description="a browser game"/>
         </job>
     </experience>
-
-    <education>
-        <school name="İzmir Özel Türk Fen Lisesi" time="2002 - 2005" description="private science high school"
-                address="www.ozelturkkoleji.com/lise/merkez-fen"/>
-
-        <school name="İstanbul Teknik Üniversitesi" time="2005 - 2012 suspended" department="Mining Enginnering"
-                description="public technical university" address="www.itu.edu.tr">
-            <internship title="Underground Mine" time="2008-08-24 - 2008-08-29">
-                <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi"
-                        description="Turkish pit coal foundation underground coal mine establishment"
-                        address="www.taskomuru.gov.tr"/>
-            </internship>
-
-            <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
-                <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area"
-                        address="www.kalemaden.com.tr"/>
-            </internship>
-
-            <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi"
-                    description="slope stability analyse"/>
-        </school>
-    </education>
 
     <knowledge about="Natural Languages">
         <item name="Turkish">

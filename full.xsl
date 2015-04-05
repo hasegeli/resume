@@ -39,25 +39,11 @@
         </ul>
     </xsl:template>
 
-    <xsl:template match="experience">
-        <h3>Experience</h3>
-
-        <blockquote>
-            <xsl:for-each select="job">
-                <xsl:sort select="@time" order="descending"/>
-                <p><xsl:value-of select="@time"/></p>
-                <p><xsl:value-of select="@title"/></p>
-                <blockquote><xsl:apply-templates/></blockquote>
-            </xsl:for-each>
-        </blockquote>
-    </xsl:template>
-
     <xsl:template match="education">
         <h3>Education</h3>
 
         <blockquote>
             <xsl:for-each select="school">
-                <xsl:sort select="@time" order="descending"/>
                 <p><xsl:value-of select="@time"/></p>
                 <p><xsl:value-of select="@department"/></p>
                 <h5><xsl:value-of select="@name"/></h5>
@@ -80,6 +66,18 @@
                         </blockquote>
                     </xsl:if>
                 </blockquote>
+            </xsl:for-each>
+        </blockquote>
+    </xsl:template>
+
+    <xsl:template match="experience">
+        <h3>Experience</h3>
+
+        <blockquote>
+            <xsl:for-each select="job">
+                <p><xsl:value-of select="@time"/></p>
+                <p><xsl:value-of select="@title"/></p>
+                <blockquote><xsl:apply-templates/></blockquote>
             </xsl:for-each>
         </blockquote>
     </xsl:template>

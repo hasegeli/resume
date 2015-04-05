@@ -245,7 +245,7 @@
 
         <item name="PostgreSQL">
             <usage name="Development" level="Advanced" start-year="2009"/>
-            <usage name="Administration" level="Intermediate" start-year="2012"/>
+            <usage name="Administration" level="Advanced" start-year="2012"/>
         </item>
 
         <item name="MongoDB">
@@ -253,7 +253,7 @@
         </item>
 
         <item name="Redis">
-            <usage name="Administration" level="Intermediate" start-year="2013"/>
+            <usage name="Administration" level="Advanced" start-year="2013"/>
         </item>
 
         <item name="Apache Solr">
@@ -261,7 +261,7 @@
         </item>
 
         <item name="OpenLDAP">
-            <usage name="Administration" level="Intermediate" start-year="2013" end-year="2014"/>
+            <usage name="Administration" level="Advanced" start-year="2013" end-year="2014"/>
         </item>
 
         <course name="SQL Server 2005 Database Administration">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="brief.xsl" title="Brief" ?>
-<?xml-stylesheet type="text/xsl" href="full.xsl" title="Full" alternate="yes" ?>
+<?xml-stylesheet type="text/xsl" href="brief.xsl" title="Brief"?>
+<?xml-stylesheet type="text/xsl" href="full.xsl" title="Full" alternate="yes"?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com" year="2015">
     <skills>
@@ -137,44 +137,48 @@
     </experience>
 
     <knowledge about="Natural Languages">
-        <item name="Turkish">
-            <usage name="Mother Tongue" level="Advanced" start-year="1989"/>
+        <item name="Turkish" start-year="1989">
+            <usage name="Speaking" level="Advanced"/>
+            <usage name="Reading" level="Advanced"/>
+            <usage name="Writing" level="Advanced"/>
         </item>
 
-        <item name="English">
-            <usage name="Speaking" level="Intermediate" start-year="1996"/>
-            <usage name="Reading" level="Advanced" start-year="1997"/>
-            <usage name="Writing" level="Intermediate" start-year="1997"/>
+        <item name="English" start-year="1996">
+            <usage name="Speaking" level="Intermediate"/>
+            <usage name="Reading" level="Advanced"/>
+            <usage name="Writing" level="Intermediate"/>
         </item>
 
-        <item name="Latin">
-            <usage name="Reading" level="Beginner" start-year="2010" end-year="2011"/>
+        <item name="Latin" start-year="2010" end-year="2011">
+            <usage name="Speaking"/>
+            <usage name="Reading" level="Beginner"/>
+            <usage name="Writing"/>
         </item>
     </knowledge>
 
     <knowledge about="Programming Languages">
-        <item name="Pascal">
-            <usage name="Development" level="Beginner" start-year="2004" end-year="2005"/>
+        <item name="Pascal" start-year="2004" end-year="2005">
+            <usage name="Development" level="Beginner"/>
         </item>
 
-        <item name="PHP">
-            <usage name="Development" level="Advanced" start-year="2006" end-year="2011"/>
+        <item name="PHP" start-year="2006" end-year="2011">
+            <usage name="Development" level="Advanced"/>
         </item>
 
-        <item name="Python">
-            <usage name="Development" level="Intermediate" start-year="2011"/>
+        <item name="Python" start-year="2011">
+            <usage name="Development" level="Intermediate"/>
         </item>
 
-        <item name="Bash">
-            <usage name="Scripting" level="Advanced" start-year="2010"/>
+        <item name="Bash" start-year="2010">
+            <usage name="Development" level="Advanced"/>
         </item>
 
-        <item name="JavaScript">
-            <usage name="Development" level="Intermediate" start-year="2014"/>
+        <item name="JavaScript" start-year="2014">
+            <usage name="Development" level="Intermediate"/>
         </item>
 
-        <item name="C">
-            <usage name="Development" level="Beginner" start-year="2013"/>
+        <item name="C" start-year="2013">
+            <usage name="Development" level="Beginner"/>
         </item>
 
         <course name="Programming with C#">
@@ -184,84 +188,96 @@
     </knowledge>
 
     <knowledge about="Operating Systems">
-        <item name="MS-DOS">
-            <usage name="Personal" level="Advanced" start-year="1997" end-year="2000"/>
+        <item name="MS-DOS" start-year="1997" end-year="2000">
+            <usage name="Personal" level="Advanced"/>
+            <usage name="Administration"/>
         </item>
 
-        <item name="Microsoft Windows 98">
-            <usage name="Personal" level="Intermediate" start-year="2000" end-year="2003"/>
+        <item name="Microsoft Windows 98" start-year="2000" end-year="2003">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration"/>
         </item>
 
-        <item name="Microsoft Windows XP">
-            <usage name="Personal" level="Intermediate" start-year="2003" end-year="2008"/>
+        <item name="Microsoft Windows XP" start-year="2003" end-year="2008">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration"/>
         </item>
 
-        <item name="Ubuntu Linux">
-            <usage name="Personal" level="Advanced" start-year="2008" end-year="2012"/>
-            <usage name="Administration" level="Intermediate" start-year="2008" end-year="2011"/>
+        <item name="Ubuntu Linux" start-year="2008" end-year="2012">
+            <usage name="Personal" level="Advanced"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="Debian GNU/Linux">
-            <usage name="Administration" level="Intermediate" start-year="2012"/>
+        <item name="Debian GNU/Linux" start-year="2012">
+            <usage name="Personal"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="Red Hat Enterprise Linux">
-            <usage name="Administration" level="Intermediate" start-year="2011" end-year="2014"/>
+        <item name="Red Hat Enterprise Linux" start-year="2011" end-year="2014">
+            <usage name="Personal"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="FreeBSD">
-            <usage name="Personal" level="Beginner" start-year="2012" end-year="2013"/>
-            <usage name="Administration" level="Beginner" start-year="2013"/>
+        <item name="FreeBSD" start-year="2013">
+            <usage name="Personal" level="Beginner"/>
+            <usage name="Administration" level="Beginner"/>
         </item>
 
-        <item name="OpenBSD">
-            <usage name="Personal" level="Intermediate" start-year="2013"/>
-            <usage name="Firewalling" level="Beginner" start-year="2014" end-year="2014"/>
+        <item name="OpenBSD" start-year="2014">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration" level="Beginner"/>
         </item>
 
-        <item name="Mac OS X">
-            <usage name="Personal" level="Intermediate" start-year="2013"/>
-            <usage name="Administration" level="Beginner" start-year="2014" end-year="2014"/>
+        <item name="Mac OS X" start-year="2013">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration" level="Beginner"/>
         </item>
 
-        <item name="VMWare ESX">
-            <usage name="Administration" level="Intermediate" start-year="2012" end-year="2014"/>
+        <item name="VMWare ESX" start-year="2012" end-year="2014">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="Citrix Netscaler">
-            <usage name="Load Balancing" level="Intermediate" start-year="2012" end-year="2014"/>
+        <item name="Citrix Netscaler" start-year="2012" end-year="2014">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="MikroTik RouterOS">
-            <usage name="Firewalling" level="Intermediate" start-year="2013" end-year="2014"/>
+        <item name="MikroTik RouterOS" start-year="2013" end-year="2014">
+            <usage name="Personal" level="Intermediate"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
     </knowledge>
 
     <knowledge about="Database Management Systems">
-        <item name="MySQL">
-            <usage name="Development" level="Advanced" start-year="2007" end-year="2011"/>
-            <usage name="Administration" level="Advanced" start-year="2011"/>
+        <item name="MySQL" start-year="2007">
+            <usage name="Development" level="Advanced"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="PostgreSQL">
-            <usage name="Development" level="Advanced" start-year="2009"/>
-            <usage name="Administration" level="Advanced" start-year="2012"/>
+        <item name="PostgreSQL" start-year="2009">
+            <usage name="Development" level="Advanced"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="MongoDB">
-            <usage name="Administration" level="Advanced" start-year="2013" end-year="2014"/>
+        <item name="MongoDB" start-year="2013" end-year="2014">
+            <usage name="Development" level="Intermediate"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="Redis">
-            <usage name="Administration" level="Advanced" start-year="2013"/>
+        <item name="Redis" start-year="2013">
+            <usage name="Development" level="Intermediate"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="Apache Solr">
-            <usage name="Administration" level="Beginner" start-year="2013" end-year="2014"/>
+        <item name="Apache Solr" start-year="2013" end-year="2014">
+            <usage name="Development"/>
+            <usage name="Administration" level="Beginner"/>
         </item>
 
-        <item name="OpenLDAP">
-            <usage name="Administration" level="Advanced" start-year="2013" end-year="2014"/>
+        <item name="OpenLDAP" start-year="2013" end-year="2014">
+            <usage name="Development"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
         <course name="SQL Server 2005 Database Administration">
@@ -279,28 +295,29 @@
     </knowledge>
 
     <knowledge about="Version Control Systems">
-        <item name="Apache Subversion">
-            <usage name="Development" level="Intermediate" start-year="2008" end-year="2010"/>
-            <usage name="Administration" level="Intermediate" start-year="2009" end-year="2010"/>
+        <item name="Apache Subversion" start-year="2008" end-year="2010">
+            <usage name="Development" level="Intermediate"/>
+            <usage name="Administration" level="Intermediate"/>
         </item>
 
-        <item name="Git">
-            <usage name="Development" level="Advanced" start-year="2011"/>
-            <usage name="Administration" level="Advanced" start-year="2012"/>
+        <item name="Git" start-year="2011">
+            <usage name="Development" level="Advanced"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="GNU Bazaar">
-            <usage name="Development" level="Beginner" start-year="2013" end-year="2013"/>
+        <item name="GNU Bazaar" start-year="2013" end-year="2013">
+            <usage name="Development" level="Beginner"/>
+            <usage name="Administration"/>
         </item>
     </knowledge>
 
     <knowledge about="Driving">
-        <item name="Car">
-            <usage name="Driving" level="Intermediate" start-year="2006"/>
+        <item name="Car" start-year="2006">
+            <usage name="Driving" level="Intermediate"/>
         </item>
 
-        <item name="Motorcycle">
-            <usage name="Driving" level="Beginner" start-year="2005" end-year="2006"/>
+        <item name="Motorcycle" start-year="2005" end-year="2006">
+            <usage name="Driving" level="Beginner"/>
         </item>
 
         <license name="Turkish Driving License"/>

@@ -89,20 +89,22 @@
             <table>
                 <tr>
                     <th></th>
-                    <th>Usage</th>
-                    <th>Level</th>
+                    <xsl:for-each select="item[1]/usage">
+                        <th><xsl:value-of select="@name"/></th>
+                    </xsl:for-each>
                     <th>Experience</th>
                 </tr>
 
                 <xsl:for-each select="item">
-                    <xsl:for-each select="usage">
-                        <tr>
-                            <td><xsl:value-of select="../@name"/></td>
-                            <td><xsl:value-of select="@name"/></td>
+                    <tr>
+                        <td><xsl:value-of select="@name"/></td>
+
+                        <xsl:for-each select="usage">
                             <td><xsl:value-of select="@level"/></td>
-                            <td>since <xsl:value-of select="@start-year"/><xsl:if test="@end-year"> until <xsl:value-of select="@end-year"/></xsl:if></td>
-                        </tr>
-                    </xsl:for-each>
+                        </xsl:for-each>
+
+                        <td><xsl:value-of select="@start-year"/> - <xsl:value-of select="@end-year"/></td>
+                    </tr>
                 </xsl:for-each>
             </table>
 

@@ -12,6 +12,7 @@
         <html>
             <head>
                 <title><xsl:value-of select="@name"/></title>
+
                 <link rel="stylesheet" type="text/css" href="common.css"/>
             </head>
 
@@ -47,7 +48,9 @@
         <blockquote>
             <xsl:for-each select="school">
                 <p class="time"><xsl:value-of select="@time"/></p>
+
                 <p><xsl:value-of select="@department"/></p>
+
                 <h5><xsl:value-of select="@name"/></h5>
 
                 <blockquote>
@@ -67,7 +70,9 @@
         <blockquote>
             <xsl:for-each select="job">
                 <p class="time"><xsl:value-of select="@time"/></p>
+
                 <p><xsl:value-of select="@title"/></p>
+
                 <blockquote><xsl:apply-templates/></blockquote>
             </xsl:for-each>
         </blockquote>
@@ -80,9 +85,11 @@
             <table>
                 <tr>
                     <th></th>
+
                     <xsl:for-each select="item[1]/usage">
                         <th><xsl:value-of select="@name"/></th>
                     </xsl:for-each>
+
                     <th>Experience</th>
                 </tr>
 
@@ -99,6 +106,7 @@
                                 <xsl:when test="@end-year">
                                     <xsl:value-of select="@end-year - @start-year + 1"/>
                                 </xsl:when>
+
                                 <xsl:otherwise>
                                     <xsl:value-of select="$current-year - @start-year + 1"/>
                                 </xsl:otherwise>
@@ -185,8 +193,8 @@
 
         <blockquote>
             <xsl:for-each select="member">
-                <xsl:sort select="@time" order="descending"/>
                 <p class="time"><xsl:value-of select="@time"/></p>
+
                 <blockquote><xsl:apply-templates/></blockquote>
             </xsl:for-each>
         </blockquote>

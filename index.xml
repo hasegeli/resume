@@ -338,23 +338,6 @@
                       description="Develop selectivity estimation functions of IP address operators to be released with PostgreSQL 9.5"/>
     </knowledge>
 
-    <knowledge about="Version Control Systems">
-        <item name="Apache Subversion" start-year="2008" end-year="2010">
-            <usage name="Development" level="Intermediate"/>
-            <usage name="Administration" level="Intermediate"/>
-        </item>
-
-        <item name="Git" start-year="2011">
-            <usage name="Development" level="Advanced"/>
-            <usage name="Administration" level="Advanced"/>
-        </item>
-
-        <item name="GNU Bazaar" start-year="2013" end-year="2013">
-            <usage name="Development" level="Beginner"/>
-            <usage name="Administration"/>
-        </item>
-    </knowledge>
-
     <knowledge about="Driving">
         <item name="Car" start-year="2006">
             <usage name="Driving" level="Intermediate"/>

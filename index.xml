@@ -13,35 +13,50 @@
     </skills>
 
     <education>
-        <school name="İzmir Özel Türk Fen Lisesi" time="2002 - 2005" description="private science high school"
-                address="www.ozelturkkoleji.com/lise/merkez-fen"/>
+        <school name="İzmir Özel Türk Fen Lisesi"
+                time="2002 - 2005"
+                location="İzmir, Turkey"
+                address="www.ozelturkkoleji.com/lise/merkez-fen"
+                description="private science high school"/>
 
-        <school name="İstanbul Teknik Üniversitesi" time="2005 - 2012 suspended" department="Mining Enginnering"
-                description="public technical university" address="www.itu.edu.tr">
-            <internship title="Underground Mine" time="2008-08-24 - 2008-08-29">
+        <school name="İstanbul Teknik Üniversitesi"
+                time="2005 - 2012 suspended"
+                department="Mining Enginnering"
+                location="İstanbul, Turkey"
+                address="www.itu.edu.tr"
+                description="public technical university">
+
+            <internship title="Underground Mine"
+                        time="2008-08-24 - 2008-08-29">
+
                 <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi"
-                        description="Turkish pit coal foundation underground coal mine establishment"
-                        address="www.taskomuru.gov.tr"/>
+                              description="Turkish pit coal foundation underground coal mine establishment"
+                              location="Zonguldak, Turkey"
+                              address="www.taskomuru.gov.tr"/>
             </internship>
 
             <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
-                <organization name="Kalemaden Ömerli Stok Sahası" description="ceramic raw material stock area"
-                        address="www.kalemaden.com.tr"/>
+                <organization name="Kalemaden Ömerli Stok Sahası"
+                              description="ceramic raw material stock area"
+                              location="İstanbul, Turkey"
+                              address="www.kalemaden.com.tr"/>
             </internship>
 
             <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi"
-                    description="slope stability analyse"/>
+                     description="slope stability analyse"/>
         </school>
     </education>
 
     <experience>
         <job title="Part Time Student Asistant" time="2007 - 2013">
             <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı"
-                    address="www.sks.itu.edu.tr"/>
+                          location="İstanbul, Turkey"
+                          address="www.sks.itu.edu.tr"/>
         </job>
 
         <job title="Programmer" time="2008-05-09 - 2010-06-01">
-            <organization name="Ares Teknoloji Ticaret AŞ"/>
+            <organization name="Ares Teknoloji Ticaret AŞ"
+                          location="İstanbul, Turkey"/>
 
             <project name="Vademecum" address="vademecumonline.com.tr"
                     description="a medicine database for Medical Tribune Turkey">
@@ -54,15 +69,21 @@
             </project>
 
             <project name="Pertyler" address="code.google.com/p/pertyler"
-                    description="web based database management tool configurable in the database"/>
+                     description="web based database management tool configurable in the database"/>
         </job>
 
         <job title="Database Administrator" time="2011-01-06 - 2014-08-31">
-            <organization name="Tart İnternet Teknolojileri Ticaret AŞ" address="tart.com.tr"/>
+            <organization name="Tart İnternet Teknolojileri Ticaret AŞ"
+                          location="İstanbul, Turkey"
+                          address="tart.com.tr"/>
 
-            <organization name="Girişim Mutfağı Kuluçka Merkezi Teknoloji Hizmetleri AŞ" address="startup.kitchen"/>
+            <organization name="Girişim Mutfağı Kuluçka Merkezi Teknoloji Hizmetleri AŞ"
+                          location="İstanbul, Turkey"
+                          address="startup.kitchen"/>
 
-            <project name="Playstore.com" address="playstore.com" description="an e-commerce application">
+            <project name="Playstore.com" address="playstore.com"
+                     description="an e-commerce application">
+
                 <accomplishment>Modeling, development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from Oracle to PostgreSQL</accomplishment>
                 <accomplishment>Migration of the content database from MySQL to PostgreSQL</accomplishment>
@@ -70,7 +91,9 @@
                 <accomplishment>Transfering development, maintenance and administration to another team</accomplishment>
             </project>
 
-            <project name="Tuttur.com" address="tuttur.com" description="a social online betting service">
+            <project name="Tuttur.com" address="tuttur.com"
+                     description="a social online betting service">
+
                 <accomplishment>Development and administration of the databases</accomplishment>
                 <accomplishment>Migration of the main database from MySQL to PostgreSQL</accomplishment>
                 <accomplishment>Performance tunning for the MySQL servers</accomplishment>
@@ -84,31 +107,40 @@
                 <accomplishment>Transfering development, maintenance and administration to another team</accomplishment>
             </project>
 
-            <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi" description="summer camp">
+            <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi"
+                     description="summer camp">
+
                 <accomplishment>Database basics lesson</accomplishment>
             </project>
 
             <project name="Motop" address="github.com/tart/motop"
-                    description="realtime monitoring tool for several MongoDB servers"/>
+                     description="realtime monitoring tool for several MongoDB servers"/>
 
-            <project name="Tart-Integration" address="github.com/tart/tart-integration"
-                    description="an integration tool for incident management"/>
+            <project name="Tart-Integration"
+                     address="github.com/tart/tart-integration"
+                     description="an integration tool for incident management"/>
 
             <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
                     description="an application to send emails"/>
 
-            <project name="İşte Oyun" address="isteoyun.com" description="a gamification server">
+           <project name="İşte Oyun" address="isteoyun.com"
+                    description="a gamification server">
+
                 <accomplishment>Monitoring setup for the servers</accomplishment>
                 <accomplishment>Deployment and configuration management system development</accomplishment>
                 <accomplishment>Maintenance and documentation of the API</accomplishment>
             </project>
 
-            <project name="Kixel World of Soccer" address="kixel.co" description="a game on Facebook">
+            <project name="Kixel World of Soccer" address="kixel.co"
+                     description="a game on Facebook">
+
                 <accomplishment>Deployment to Amazon Web Services</accomplishment>
                 <accomplishment>Maintenance of the servers</accomplishment>
             </project>
 
-            <project name="Sihirhosting" address="sihirhosting.com" description="Internet hosting provider">
+            <project name="Sihirhosting" address="sihirhosting.com"
+                     description="Internet hosting provider">
+
                 <accomplishment>Migration of the domain name servers from BIND to Unbound and NSD</accomplishment>
                 <accomplishment>Migration of the email servers from Qmail to Postfix</accomplishment>
                 <accomplishment>Monitoring setup for the servers</accomplishment>
@@ -117,20 +149,26 @@
         </job>
 
         <job title="Consultant" time="2014-09-01 - 2014-12-31">
-            <project name="Emlak Jet" address="emlakjet.com" description="a private listing application">
+            <project name="Emlak Jet" address="emlakjet.com"
+                     description="a private listing application">
+
                 <accomplishment>Modeling and development of the database of the new version of the application</accomplishment>
                 <accomplishment>Design and development of MySQL to PostgreSQL replication application</accomplishment>
                 <accomplishment>Implementation of the new text search and auto-complete functions</accomplishment>
             </project>
 
-            <project name="Yaşar Holding PostgreSQL Training" address="www.astron.ws" description="IT company of an holding">
+            <project name="Yaşar Holding PostgreSQL Training"
+                     address="www.astron.ws"
+                     description="IT company of an holding">
+
                 <accomplishment>Full day PostgreSQL training for system administrators and managers</accomplishment>
                 <accomplishment>Three day PostgreSQL workshop for Java developers</accomplishment>
             </project>
         </job>
 
         <job title="System Administrator" time="2015-02-01 - ...">
-            <organization name="InnoGames GmbH" address="www.innogames.com"/>
+            <organization name="InnoGames GmbH" address="www.innogames.com"
+                          location="Hamburg, Germany"/>
 
             <project name="Elvenar" address="www.elvenar.com" description="a browser game"/>
         </job>
@@ -183,7 +221,7 @@
 
         <course name="Programming with C#">
             <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
-                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+                          address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
         </course>
     </knowledge>
 
@@ -282,16 +320,16 @@
 
         <course name="SQL Server 2005 Database Administration">
             <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
-                    address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
+                          address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
         </course>
 
         <contribution name="GiST support for inet/cidr types of PostgreSQL"
-                address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=f23a5630ebc797219b62797f566dec9f65090e03"
-                description="A new in-core GiST index operator class for IP address types to be released with PostgreSQL 9.4"/>
+                      address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=f23a5630ebc797219b62797f566dec9f65090e03"
+                      description="A new in-core GiST index operator class for IP address types to be released with PostgreSQL 9.4"/>
 
         <contribution name="Selectivity estimation of inet/cidr types of PostgreSQL"
-                address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=89840d7d3fa943cb932f6a00707fdb17a9cab001"
-                description="Develop selectivity estimation functions of IP address operators to be released with PostgreSQL 9.5"/>
+                      address="git.postgresql.org/gitweb/?p=postgresql.git;a=commitdiff;h=89840d7d3fa943cb932f6a00707fdb17a9cab001"
+                      description="Develop selectivity estimation functions of IP address operators to be released with PostgreSQL 9.5"/>
     </knowledge>
 
     <knowledge about="Version Control Systems">
@@ -325,28 +363,34 @@
 
     <voluntariness>
         <member time="2006 - 2012">
-            <organization name="İTÜ Maden Mühendisliği Kulübü" address="madenmk.itu.edu.tr"
-                    description="mining enginnering student association"/>
+            <organization name="İTÜ Maden Mühendisliği Kulübü"
+                          address="madenmk.itu.edu.tr"
+                          location="İstanbul, Turkey"
+                          description="mining enginnering student association"/>
 
             <project name="Kazdağlarında Altın Arama Semineri"
-                    description="technical seminer about gold mining in Turkey"/>
+                     description="technical seminer about gold mining in Turkey"/>
 
             <project name="Bergama Teknik Gezisi"
-                    description="technical trip to the gold mine of Koza Altın in Turkey"/>
+                     description="technical trip to the gold mine of Koza Altın in Turkey"/>
 
             <project name="Soma Teknik Gezisi"
-                    description="technical trip to the brown coal mine of TKI in Turkey"/>
+                     description="technical trip to the brown coal mine of TKI in Turkey"/>
 
             <project name="Zonguldak Teknik Gezisi"
-                    description="technical trip to the Armutçuk institution of TTK in Turkey"/>
+                     description="technical trip to the Armutçuk institution of TTK in Turkey"/>
         </member>
 
         <member time="2010 - ...">
-            <organization name="Türkiye Linux Kullanıcıları Derneği" address="lkd.org.tr"
-                    description="Turkish Linux users association"/>
+            <organization name="Türkiye Linux Kullanıcıları Derneği"
+                          address="lkd.org.tr"
+                          location="İstanbul, Turkey"
+                          description="Turkish Linux users association"/>
 
-            <project name="Özgür Yazılım ve Linux Günleri" address="seminer.linux.org.tr"
-                    description="free software and Linux days organized by the association every year">
+            <project name="Özgür Yazılım ve Linux Günleri"
+                     address="seminer.linux.org.tr"
+                     description="free software and Linux days organized by the association every year">
+
                 <accomplishment>Seminer about software development methodologies on 2011</accomplishment>
                 <accomplishment>Seminer about replication, sharding techniques on 2013</accomplishment>
             </project>

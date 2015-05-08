@@ -12,7 +12,6 @@
         <html>
             <head>
                 <title><xsl:value-of select="@name"/></title>
-
                 <link rel="stylesheet" type="text/css" href="common.css"/>
             </head>
 
@@ -48,12 +47,12 @@
         <blockquote>
             <xsl:for-each select="school">
                 <p class="time"><xsl:value-of select="@time"/></p>
-
                 <p><xsl:value-of select="@department"/></p>
-
                 <h5><xsl:value-of select="@name"/></h5>
 
                 <blockquote>
+                    <p class="location"><xsl:value-of select="@location"/></p>
+
                     <p>
                         <a><xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
                             <xsl:value-of select="@address"/>
@@ -70,9 +69,7 @@
         <blockquote>
             <xsl:for-each select="job">
                 <p class="time"><xsl:value-of select="@time"/></p>
-
                 <p><xsl:value-of select="@title"/></p>
-
                 <blockquote><xsl:apply-templates/></blockquote>
             </xsl:for-each>
         </blockquote>
@@ -178,6 +175,7 @@
         <h5><xsl:value-of select="@name"/></h5>
 
         <blockquote>
+            <p class="location"><xsl:value-of select="@location"/></p>
             <p><xsl:value-of select="@description"/></p>
 
             <p>
@@ -194,7 +192,6 @@
         <blockquote>
             <xsl:for-each select="member">
                 <p class="time"><xsl:value-of select="@time"/></p>
-
                 <blockquote><xsl:apply-templates/></blockquote>
             </xsl:for-each>
         </blockquote>

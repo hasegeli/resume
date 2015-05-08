@@ -34,9 +34,12 @@ td
 
 .time
 {
-    margin-top: 2em;
-    margin-bottom: 0;
-    vertical-align: sub;
     font-size: smaller;
+    margin-top: 2em;
     text-decoration: underline;
+}
+
+.location
+{
+    font-size: smaller;
 }

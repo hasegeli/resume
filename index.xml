@@ -209,6 +209,10 @@
             <usage name="Development" level="Advanced"/>
         </item>
 
+        <item name="SQL" start-year="2006">
+            <usage name="Development" level="Advanced"/>
+        </item>
+
         <item name="Python" start-year="2011">
             <usage name="Development" level="Advanced"/>
         </item>

@@ -192,6 +192,12 @@
             <usage name="Reading" level="Beginner"/>
             <usage name="Writing"/>
         </item>
+
+        <item name="German" start-year="2015">
+            <usage name="Speaking" level="Beginner"/>
+            <usage name="Reading" level="Beginner"/>
+            <usage name="Writing" level="Beginner"/>
+        </item>
     </knowledge>
 
     <knowledge about="Programming Languages">

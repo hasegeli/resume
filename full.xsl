@@ -170,7 +170,7 @@
 
                 <ul>
                     <xsl:for-each select="accomplishment">
-                        <li><xsl:value-of select="."/></li>
+                        <li><xsl:value-of select="@description"/></li>
                     </xsl:for-each>
                 </ul>
             </xsl:if>

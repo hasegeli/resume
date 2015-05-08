@@ -147,30 +147,6 @@
         </blockquote>
     </xsl:template>
 
-    <xsl:template match="project">
-        <h5><xsl:value-of select="@name"/></h5>
-
-        <blockquote>
-            <p><xsl:value-of select="@description"/></p>
-
-            <p>
-                <a><xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
-                    <xsl:value-of select="@address"/>
-                </a>
-            </p>
-
-            <xsl:if test="accomplishment">
-                <p>Accomplishments:</p>
-
-                <ul>
-                    <xsl:for-each select="accomplishment">
-                        <li><xsl:value-of select="."/></li>
-                    </xsl:for-each>
-                </ul>
-            </xsl:if>
-        </blockquote>
-    </xsl:template>
-
     <xsl:template match="organization">
         <h5><xsl:value-of select="@name"/></h5>
 

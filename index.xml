@@ -21,7 +21,7 @@
 
         <school name="İstanbul Teknik Üniversitesi"
                 time="2005 - 2012 suspended"
-                department="Mining Enginnering"
+                department="Mining Engineering"
                 location="İstanbul, Turkey"
                 address="www.itu.edu.tr"
                 description="public technical university">
@@ -90,7 +90,7 @@
                 <accomplishment description="Migration of the main database from Oracle to PostgreSQL"/>
                 <accomplishment description="Migration of the content database from MySQL to PostgreSQL"/>
                 <accomplishment description="Monitoring setup for the PostgreSQL servers"/>
-                <accomplishment description="Transfering development, maintenance and administration to another team"/>
+                <accomplishment description="Transferring development, maintenance and administration to another team"/>
             </project>
 
             <project name="Tuttur.com" address="tuttur.com"
@@ -101,12 +101,12 @@
                 <accomplishment description="Performance tunning for the MySQL servers"/>
                 <accomplishment description="Monitoring setup for the servers"/>
                 <accomplishment description="Incident management and notification setup"/>
-                <accomplishment description="Identitity management system implementation"/>
+                <accomplishment description="Identity management system implementation"/>
                 <accomplishment description="Centralised logging system implementation"/>
                 <accomplishment description="Upgrading storage hardware"/>
                 <accomplishment description="Planing data integrity improvements"/>
                 <accomplishment description="Deployment and configuration management system development"/>
-                <accomplishment description="Transfering development, maintenance and administration to another team"/>
+                <accomplishment description="Transferring development, maintenance and administration to another team"/>
             </project>
 
             <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi"
@@ -390,8 +390,8 @@
                      address="seminer.linux.org.tr"
                      description="free software and Linux days organized by the association every year">
 
-                <accomplishment description="Seminer about software development methodologies on 2011"/>
-                <accomplishment description="Seminer about replication, sharding techniques on 2013"/>
+                <accomplishment description="Seminar about software development methodologies on 2011"/>
+                <accomplishment description="Seminar about replication, sharding techniques on 2013"/>
             </project>
         </member>
     </voluntariness>

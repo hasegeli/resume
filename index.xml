@@ -172,7 +172,11 @@
             <organization name="InnoGames GmbH" address="www.innogames.com"
                           location="Hamburg, Germany"/>
 
-            <project name="Elvenar" address="www.elvenar.com" description="a browser game"/>
+            <project name="Forge of Empires" address="www.forgeofempires.com"
+                     description="A free-to-play browser city-builder game"/>
+            <project name="Elvenar" address="www.elvenar.com"
+                     description="A free-to-play browser city-builder game"/>
+
         </job>
     </experience>
 

@@ -177,6 +177,11 @@
             <project name="Elvenar" address="www.elvenar.com"
                      description="A free-to-play browser city-builder game"/>
 
+            <accomplishment description="Indexes of PostgreSQL talk at PGConf.de 2015"/>
+            <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
+            <accomplishment description="Setting up point in time recovery for the game databases"/>
+            <accomplishment description="Designing and developing configuration management using Puppet"/>
+            <accomplishment description="Setting up replication with automated failover for the game databases"/>
         </job>
     </experience>
 

@@ -98,7 +98,7 @@
 
                 <accomplishment description="Development and administration of the databases"/>
                 <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
-                <accomplishment description="Performance tunning for the MySQL servers"/>
+                <accomplishment description="Performance tuning for the MySQL servers"/>
                 <accomplishment description="Monitoring setup for the servers"/>
                 <accomplishment description="Incident management and notification setup"/>
                 <accomplishment description="Identity management system implementation"/>

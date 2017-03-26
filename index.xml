@@ -247,33 +247,18 @@
     </knowledge>
 
     <knowledge about="Operating Systems">
-        <item name="MS-DOS" start-year="1997" end-year="2000">
-            <usage name="Personal" level="Advanced"/>
-            <usage name="Administration"/>
-        </item>
-
-        <item name="Microsoft Windows 98" start-year="2000" end-year="2003">
-            <usage name="Personal" level="Intermediate"/>
-            <usage name="Administration"/>
-        </item>
-
-        <item name="Microsoft Windows XP" start-year="2003" end-year="2008">
-            <usage name="Personal" level="Intermediate"/>
-            <usage name="Administration"/>
-        </item>
-
-        <item name="Ubuntu Linux" start-year="2008" end-year="2012">
-            <usage name="Personal" level="Advanced"/>
+        <item name="Red Hat Enterprise Linux" start-year="2011" end-year="2014">
+            <usage name="Personal"/>
             <usage name="Administration" level="Intermediate"/>
         </item>
 
         <item name="Debian GNU/Linux" start-year="2012">
             <usage name="Personal"/>
-            <usage name="Administration" level="Intermediate"/>
+            <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="Red Hat Enterprise Linux" start-year="2011" end-year="2014">
-            <usage name="Personal"/>
+        <item name="Ubuntu Linux" start-year="2008" end-year="2012">
+            <usage name="Personal" level="Advanced"/>
             <usage name="Administration" level="Intermediate"/>
         </item>
 
@@ -288,33 +273,18 @@
         </item>
 
         <item name="Mac OS X" start-year="2013">
-            <usage name="Personal" level="Intermediate"/>
+            <usage name="Personal" level="Advanced"/>
             <usage name="Administration" level="Beginner"/>
-        </item>
-
-        <item name="VMWare ESX" start-year="2012" end-year="2014">
-            <usage name="Personal" level="Intermediate"/>
-            <usage name="Administration" level="Intermediate"/>
-        </item>
-
-        <item name="Citrix Netscaler" start-year="2012" end-year="2014">
-            <usage name="Personal" level="Intermediate"/>
-            <usage name="Administration" level="Intermediate"/>
-        </item>
-
-        <item name="MikroTik RouterOS" start-year="2013" end-year="2014">
-            <usage name="Personal" level="Intermediate"/>
-            <usage name="Administration" level="Intermediate"/>
         </item>
     </knowledge>
 
     <knowledge about="Database Management Systems">
-        <item name="MySQL" start-year="2007">
+        <item name="PostgreSQL" start-year="2009">
             <usage name="Development" level="Advanced"/>
             <usage name="Administration" level="Advanced"/>
         </item>
 
-        <item name="PostgreSQL" start-year="2009">
+        <item name="MySQL" start-year="2007">
             <usage name="Development" level="Advanced"/>
             <usage name="Administration" level="Advanced"/>
         </item>

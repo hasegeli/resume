@@ -325,6 +325,10 @@
         <contribution product="PostgreSQL 9.5"
                       description="BRIN inclusion operator class to support complicated types"
                       address="git.postgresql.org/pg/commitdiff/b0b7be61"/>
+
+        <contribution product="puppetlabs-postgresql"
+                      description="Maintenance and integrations features"
+                      address="https://github.com/puppetlabs/puppetlabs-postgresql/commits?author=hasegeli"/>
     </knowledge>
 
     <knowledge about="Driving">

@@ -182,6 +182,9 @@
             <accomplishment description="Setting up point in time recovery for the game databases"/>
             <accomplishment description="Designing and developing configuration management using Puppet"/>
             <accomplishment description="Setting up replication with automated failover for the game databases"/>
+
+            <project name="igcommit" address="github.com/innogames/igcommit"
+                     description="Git pre-receive hook to keep repositories clean"/>
         </job>
     </experience>
 

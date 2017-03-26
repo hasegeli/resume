@@ -187,27 +187,23 @@
 
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">
-            <usage name="Speaking" level="Advanced"/>
-            <usage name="Reading" level="Advanced"/>
-            <usage name="Writing" level="Advanced"/>
+            <usage name="Spoken" level="Native"/>
+            <usage name="Written" level="Fluent"/>
         </item>
 
         <item name="English" start-year="1996">
-            <usage name="Speaking" level="Intermediate"/>
-            <usage name="Reading" level="Advanced"/>
-            <usage name="Writing" level="Intermediate"/>
-        </item>
-
-        <item name="Latin" start-year="2010" end-year="2011">
-            <usage name="Speaking"/>
-            <usage name="Reading" level="Beginner"/>
-            <usage name="Writing"/>
+            <usage name="Spoken" level="Fluent"/>
+            <usage name="Written" level="Fluent"/>
         </item>
 
         <item name="German" start-year="2015">
-            <usage name="Speaking" level="Beginner"/>
-            <usage name="Reading" level="Beginner"/>
-            <usage name="Writing" level="Beginner"/>
+            <usage name="Spoken" level="Conversional"/>
+            <usage name="Written" level="Beginner"/>
+        </item>
+
+        <item name="Latin" start-year="2010" end-year="2011">
+            <usage name="Spoken"/>
+            <usage name="Written" level="Beginner"/>
         </item>
     </knowledge>
 

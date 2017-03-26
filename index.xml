@@ -213,7 +213,7 @@
         </item>
 
         <item name="PHP" start-year="2006" end-year="2011">
-            <usage name="Development" level="Advanced"/>
+            <usage name="Development" level="Intermediate"/>
         </item>
 
         <item name="SQL" start-year="2006">
@@ -224,15 +224,19 @@
             <usage name="Development" level="Advanced"/>
         </item>
 
-        <item name="Bash" start-year="2010">
-            <usage name="Development" level="Advanced"/>
-        </item>
-
         <item name="JavaScript" start-year="2014">
             <usage name="Development" level="Intermediate"/>
         </item>
 
         <item name="C" start-year="2013">
+            <usage name="Development" level="Intermediate"/>
+        </item>
+
+        <item name="Puppet" start-year="2015">
+            <usage name="Development" level="Advanced"/>
+        </item>
+
+        <item name="Rust" start-year="2016">
             <usage name="Development" level="Beginner"/>
         </item>
 

@@ -21,10 +21,7 @@
                 <blockquote>
                     <p>
                         <a>
-                            <xsl:attribute name="href">
-                                mailto:<xsl:value-of select="@mail"/>
-                            </xsl:attribute>
-
+                            <xsl:attribute name="href">mailto:<xsl:value-of select="@mail"/></xsl:attribute>
                             <xsl:value-of select="@mail"/>
                         </a>
                     </p>
@@ -59,10 +56,7 @@
 
                     <p>
                         <a>
-                            <xsl:attribute name="href">
-                                http://<xsl:value-of select="@address"/>
-                            </xsl:attribute>
-
+                            <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
                             <xsl:value-of select="@address"/>
                         </a>
                     </p>
@@ -90,21 +84,14 @@
             <table>
                 <tr>
                     <th></th>
-
-                    <xsl:for-each select="item[1]/usage">
-                        <th><xsl:value-of select="@name"/></th>
-                    </xsl:for-each>
-
+                    <xsl:for-each select="item[1]/usage"><th><xsl:value-of select="@name"/></th></xsl:for-each>
                     <th>Experience</th>
                 </tr>
 
                 <xsl:for-each select="item">
                     <tr>
                         <td><xsl:value-of select="@name"/></td>
-
-                        <xsl:for-each select="usage">
-                            <td><xsl:value-of select="@level"/></td>
-                        </xsl:for-each>
+                        <xsl:for-each select="usage"><td><xsl:value-of select="@level"/></td></xsl:for-each>
 
                         <xsl:variable name="year">
                             <xsl:choose>
@@ -118,10 +105,7 @@
                             </xsl:choose>
                         </xsl:variable>
 
-                        <td>
-                            <xsl:value-of select="$year"/>
-                            year<xsl:if test="$year > 1">s </xsl:if>
-                        </td>
+                        <td><xsl:value-of select="$year"/> year<xsl:if test="$year > 1">s </xsl:if></td>
                     </tr>
                 </xsl:for-each>
             </table>
@@ -141,17 +125,12 @@
 
                 <blockquote>
                     <xsl:for-each select="contribution">
-                        <p><xsl:value-of select="@name"/></p>
+                        <p><i> <xsl:value-of select="@product"/>: </i> <xsl:value-of select="@description"/></p>
 
                         <blockquote>
-                            <p><xsl:value-of select="@description"/></p>
-
                             <p>
                                 <a>
-                                    <xsl:attribute name="href">
-                                        http://<xsl:value-of select="@address"/>
-                                    </xsl:attribute>
-
+                                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
                                     <xsl:value-of select="@address"/>
                                 </a>
                             </p>
@@ -171,10 +150,7 @@
 
             <p>
                 <a>
-                    <xsl:attribute name="href">
-                        http://<xsl:value-of select="@address"/>
-                    </xsl:attribute>
-
+                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
                     <xsl:value-of select="@address"/>
                 </a>
             </p>

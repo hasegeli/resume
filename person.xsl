@@ -32,16 +32,6 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="skills">
-        <h3>Skills</h3>
-
-        <ul>
-            <xsl:for-each select="skill">
-                <li><xsl:value-of select="@name"/></li>
-            </xsl:for-each>
-        </ul>
-    </xsl:template>
-
     <xsl:template match="education">
         <h3>Education</h3>
 

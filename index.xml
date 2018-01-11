@@ -2,15 +2,6 @@
 <?xml-stylesheet type="text/xsl" href="person.xsl"?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com">
-    <skills>
-        <skill name="System Administration"/>
-        <skill name="Database Administration"/>
-        <skill name="Database Modelling"/>
-        <skill name="Database Development"/>
-        <skill name="Software Development"/>
-        <skill name="Technical Documentation"/>
-    </skills>
-
     <education>
         <school name="İzmir Özel Türk Fen Lisesi"
                 time="2002 - 2005"

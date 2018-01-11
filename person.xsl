@@ -6,6 +6,8 @@
     <xsl:output doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN"
                 doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>
  
+    <xsl:variable name="current-year" select="2017"/>
+
     <xsl:template match="/person">
         <html>
             <head>
@@ -93,30 +95,34 @@
             <table>
                 <tr>
                     <th></th>
-                    <xsl:for-each select="item[1]/usage">
-                        <th><xsl:value-of select="@name"/></th>
-                    </xsl:for-each>
+                    <xsl:for-each select="item[1]/usage"><th><xsl:value-of select="@name"/></th></xsl:for-each>
                     <th>Experience</th>
                 </tr>
 
                 <xsl:for-each select="item">
                     <tr>
                         <td><xsl:value-of select="@name"/></td>
+                        <xsl:for-each select="usage"><td><xsl:value-of select="@level"/></td></xsl:for-each>
 
-                        <xsl:for-each select="usage">
-                            <td><xsl:value-of select="@level"/></td>
-                        </xsl:for-each>
+                        <xsl:variable name="year">
+                            <xsl:choose>
+                                <xsl:when test="@end-year">
+                                    <xsl:value-of select="@end-year - @start-year + 1"/>
+                                </xsl:when>
 
-                        <td>
-                            <xsl:value-of select="@start-year"/> -
-                            <xsl:value-of select="@end-year"/>
-                        </td>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="$current-year - @start-year + 1"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+
+                        <td><xsl:value-of select="$year"/> year<xsl:if test="$year > 1">s </xsl:if></td>
                     </tr>
                 </xsl:for-each>
             </table>
 
             <xsl:if test="license">
-                <h4>Licenses:</h4>
+                <h4>Licenses</h4>
 
                 <ul>
                     <xsl:for-each select="license">
@@ -137,7 +143,7 @@
             </xsl:if>
 
             <xsl:if test="contribution">
-                <h4>Contributions:</h4>
+                <h4>Contributions</h4>
 
                 <blockquote>
                     <xsl:for-each select="contribution">

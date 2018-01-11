@@ -233,10 +233,10 @@
             <usage name="Development" level="Beginner"/>
         </item>
 
-        <course name="Programming with C#">
+        <certificate name="Programming with C#">
             <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
                           address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
-        </course>
+        </certificate>
     </knowledge>
 
     <knowledge about="Operating Systems">
@@ -333,8 +333,8 @@
             <usage name="Driving" level="Beginner"/>
         </item>
 
-        <license name="Turkish Driving License"/>
-        <license name="German Driving License"/>
+        <certificate name="Turkish Driving License"/>
+        <certificate name="German Driving License"/>
     </knowledge>
 
     <voluntariness>

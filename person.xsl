@@ -111,21 +111,11 @@
                 </xsl:for-each>
             </table>
 
-            <xsl:if test="license">
-                <h4>Licenses</h4>
-
-                <ul>
-                    <xsl:for-each select="license">
-                        <li><xsl:value-of select="@name"/></li>
-                    </xsl:for-each>
-                </ul>
-            </xsl:if>
-
-            <xsl:if test="course">
-                <h4>Courses:</h4>
+            <xsl:if test="certificate">
+                <h4>Certificates</h4>
 
                 <blockquote>
-                    <xsl:for-each select="course">
+                    <xsl:for-each select="certificate">
                         <p><xsl:value-of select="@name"/></p>
                         <xsl:apply-templates/>
                     </xsl:for-each>

@@ -312,12 +312,16 @@
                       address="git.postgresql.org/pg/commitdiff/f23a5630"/>
 
         <contribution product="PostgreSQL 9.5"
-                      description="Selectivity estimation functions of IP address operators"
+                      description="Selectivity estimation of IP address operators"
                       address="git.postgresql.org/pg/commitdiff/89840d7d"/>
 
         <contribution product="PostgreSQL 9.5"
                       description="BRIN inclusion operator class to support complicated types"
                       address="git.postgresql.org/pg/commitdiff/b0b7be61"/>
+
+        <contribution product="PostgreSQL 10"
+                      description="SP-GiST index support for IP address types"
+                      address="git.postgresql.org/pg/commitdiff/77e29068"/>
 
         <contribution product="puppetlabs-postgresql"
                       description="Maintenance and integrations features"

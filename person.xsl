@@ -78,6 +78,17 @@
         </blockquote>
     </xsl:template>
 
+    <xsl:template match="voluntariness">
+        <h3>Voluntarines</h3>
+
+        <blockquote>
+            <xsl:for-each select="member">
+                <p class="time"><xsl:value-of select="@time"/></p>
+                <blockquote><xsl:apply-templates/></blockquote>
+            </xsl:for-each>
+        </blockquote>
+    </xsl:template>
+
     <xsl:template match="knowledge">
         <h3><xsl:value-of select="@about"/></h3>
 
@@ -143,10 +154,14 @@
         </blockquote>
     </xsl:template>
 
-    <xsl:template match="project">
+    <xsl:template match="project | organization">
         <h5><xsl:value-of select="@name"/></h5>
 
         <blockquote>
+            <xsl:if test="@location">
+                <p class="location"><xsl:value-of select="@location"/></p>
+            </xsl:if>
+
             <p><xsl:value-of select="@description"/></p>
 
             <p>
@@ -165,33 +180,6 @@
                     </xsl:for-each>
                 </ul>
             </xsl:if>
-        </blockquote>
-    </xsl:template>
-
-    <xsl:template match="organization">
-        <h5><xsl:value-of select="@name"/></h5>
-
-        <blockquote>
-            <p class="location"><xsl:value-of select="@location"/></p>
-            <p><xsl:value-of select="@description"/></p>
-
-            <p>
-                <a>
-                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
-                    <xsl:value-of select="@address"/>
-                </a>
-            </p>
-        </blockquote>
-    </xsl:template>
-
-    <xsl:template match="voluntariness">
-        <h3>Voluntarines</h3>
-
-        <blockquote>
-            <xsl:for-each select="member">
-                <p class="time"><xsl:value-of select="@time"/></p>
-                <blockquote><xsl:apply-templates/></blockquote>
-            </xsl:for-each>
         </blockquote>
     </xsl:template>
 </xsl:stylesheet>

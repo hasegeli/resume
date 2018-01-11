@@ -217,7 +217,7 @@
             <usage name="Development" level="Advanced"/>
         </item>
 
-        <item name="JavaScript" start-year="2014">
+        <item name="JavaScript" start-year="2014" end-year="2015">
             <usage name="Development" level="Intermediate"/>
         </item>
 

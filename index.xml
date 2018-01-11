@@ -331,7 +331,7 @@
 
         <contribution product="puppetlabs-postgresql"
                       description="Maintenance and integrations features"
-                      address="https://github.com/puppetlabs/puppetlabs-postgresql/commits?author=hasegeli"/>
+                      address="github.com/puppetlabs/puppetlabs-postgresql/commits?author=hasegeli"/>
     </knowledge>
 
     <knowledge about="Driving">

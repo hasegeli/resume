@@ -223,7 +223,7 @@
             <usage name="Development" level="Beginner"/>
         </item>
 
-        <certificate name="Programming with C#"
+        <certificate title="Programming with C#"
                      address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme">
             <organization name="Istanbul Technical University - Information Technologies Department"/>
         </certificate>
@@ -327,8 +327,8 @@
             <usage name="Driving" level="Beginner"/>
         </item>
 
-        <certificate name="Turkish Driving License"/>
-        <certificate name="German Driving License"/>
+        <certificate title="Turkish Driving License"/>
+        <certificate title="German Driving License"/>
     </knowledge>
 
     <voluntariness>

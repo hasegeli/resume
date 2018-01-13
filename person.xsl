@@ -41,52 +41,34 @@
                 <p><xsl:value-of select="@department"/></p>
                 <h5><xsl:value-of select="@name"/></h5>
 
-                <blockquote>
-                    <p class="location"><xsl:value-of select="@location"/></p>
+                <p>
+                    <a>
+                        <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
+                        <xsl:value-of select="@address"/>
+                    </a>
+                </p>
 
-                    <p>
-                        <a>
-                            <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
-                            <xsl:value-of select="@address"/>
-                        </a>
-                    </p>
+                <xsl:if test="internship">
+                    <p>Internships:</p>
+                    <blockquote><xsl:apply-templates select="internship"/></blockquote>
+                </xsl:if>
 
-                    <xsl:if test="internship">
-                        <p>Internships:</p>
-
-                        <blockquote>
-                            <xsl:for-each select="internship">
-                                <p><xsl:value-of select="@title"/></p>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
-                        </blockquote>
-                    </xsl:if>
-                </blockquote>
+                <xsl:if test="project">
+                    <p>Projects:</p>
+                    <blockquote><xsl:apply-templates select="project"/></blockquote>
+                </xsl:if>
             </xsl:for-each>
         </blockquote>
     </xsl:template>
 
     <xsl:template match="experience">
         <h3>Experience</h3>
-
-        <blockquote>
-            <xsl:for-each select="job">
-                <p class="time"><xsl:value-of select="@time"/></p>
-                <p><xsl:value-of select="@title"/></p>
-                <blockquote><xsl:apply-templates/></blockquote>
-            </xsl:for-each>
-        </blockquote>
+        <blockquote><xsl:apply-templates/></blockquote>
     </xsl:template>
 
     <xsl:template match="voluntariness">
         <h3>Voluntarines</h3>
-
-        <blockquote>
-            <xsl:for-each select="member">
-                <p class="time"><xsl:value-of select="@time"/></p>
-                <blockquote><xsl:apply-templates/></blockquote>
-            </xsl:for-each>
-        </blockquote>
+        <blockquote><xsl:apply-templates/></blockquote>
     </xsl:template>
 
     <xsl:template match="knowledge">
@@ -124,37 +106,40 @@
 
             <xsl:if test="certificate">
                 <h4>Certificates</h4>
-
-                <blockquote>
-                    <xsl:for-each select="certificate">
-                        <p><xsl:value-of select="@name"/></p>
-                        <xsl:apply-templates/>
-                    </xsl:for-each>
-                </blockquote>
+                <blockquote><xsl:apply-templates select="certificate"/></blockquote>
             </xsl:if>
 
             <xsl:if test="contribution">
                 <h4>Contributions</h4>
-
-                <blockquote>
-                    <xsl:for-each select="contribution">
-                        <p><i> <xsl:value-of select="@product"/>: </i> <xsl:value-of select="@description"/></p>
-
-                        <blockquote>
-                            <p>
-                                <a>
-                                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
-                                    <xsl:value-of select="@address"/>
-                                </a>
-                            </p>
-                        </blockquote>
-                    </xsl:for-each>
-                </blockquote>
+                <blockquote><xsl:apply-templates select="contribution"/></blockquote>
             </xsl:if>
         </blockquote>
     </xsl:template>
 
-    <xsl:template match="project | organization">
+    <xsl:template match="certificate | internship | job | member">
+        <p class="time"><xsl:value-of select="@time"/></p>
+
+        <xsl:if test="@title">
+            <p><xsl:value-of select="@title"/></p>
+        </xsl:if>
+
+        <xsl:apply-templates/>
+    </xsl:template>
+
+    <xsl:template match="contribution">
+        <p><i> <xsl:value-of select="@product"/>: </i> <xsl:value-of select="@description"/></p>
+
+        <blockquote>
+            <p>
+                <a>
+                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
+                    <xsl:value-of select="@address"/>
+                </a>
+            </p>
+        </blockquote>
+    </xsl:template>
+
+    <xsl:template match="organization | project">
         <h5><xsl:value-of select="@name"/></h5>
 
         <blockquote>

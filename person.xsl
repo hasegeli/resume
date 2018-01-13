@@ -157,8 +157,6 @@
             </p>
 
             <xsl:if test="accomplishment">
-                <p>Accomplishments:</p>
-
                 <ul>
                     <xsl:for-each select="accomplishment">
                         <li><xsl:value-of select="@description"/></li>

@@ -3,50 +3,43 @@
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com">
     <education>
-        <school name="İzmir Özel Türk Fen Lisesi"
+        <school name="Izmir Private Turkish College - Science High School"
                 time="2002 - 2005"
-                location="İzmir, Turkey"
-                address="www.ozelturkkoleji.com/lise/merkez-fen"
-                description="private science high school"/>
+                address="www.ozelturkkoleji.com"/>
 
-        <school name="İstanbul Teknik Üniversitesi"
+        <school name="Istanbul Technical University - Faculty of Mines"
                 time="2005 - 2012 suspended"
                 department="Mining Engineering"
-                location="İstanbul, Turkey"
-                address="www.itu.edu.tr"
-                description="public technical university">
+                address="www.itu.edu.tr">
 
             <internship title="Underground Mine"
                         time="2008-08-24 - 2008-08-29">
 
-                <organization name="Türkiye Taşkömürü Kurumu Üzülmez Müessesesi Asma - Dilaver İşletmesi"
-                              description="Turkish pit coal foundation underground coal mine establishment"
+                <organization name="Turkish Pit Coal Establishment - Üzülmez Enterprise - Asma-Dilaver Company"
                               location="Zonguldak, Turkey"
                               address="www.taskomuru.gov.tr"/>
             </internship>
 
             <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
-                <organization name="Kalemaden Ömerli Stok Sahası"
-                              description="ceramic raw material stock area"
-                              location="İstanbul, Turkey"
+                <organization name="Kalemaden - Ömerli Stock Field"
+                              location="Istanbul, Turkey"
                               address="www.kalemaden.com.tr"/>
             </internship>
 
-            <project name="Seyitömer A19 Panosu Şevlerinin Duraylılığının İncelenmesi"
-                     description="slope stability analyse"/>
+            <project name="Slope Stability Analyses of Seyitömer Brown Coal Panel A19"
+                     location="Kütahya, Turkey"/>
         </school>
     </education>
 
     <experience>
-        <job title="Part Time Student Asistant" time="2007 - 2013">
-            <organization name="İstanbul Teknik Üniversitesi Sağlık Kültür ve Spor Daire Başkanlığı"
-                          location="İstanbul, Turkey"
+        <job title="Part Time Student Assistant" time="2007 - 2013">
+            <organization name="Istanbul Technical University - Health Culture Sport Department"
                           address="www.sks.itu.edu.tr"/>
         </job>
 
         <job title="Programmer" time="2008-05-09 - 2010-06-01">
-            <organization name="Ares Teknoloji Ticaret AŞ"
-                          location="İstanbul, Turkey"/>
+            <organization name="Ares Technology"
+                          location="Istanbul, Turkey"/>
 
             <project name="Vademecum"
                      address="vademecumonline.com.tr"
@@ -65,12 +58,12 @@
         </job>
 
         <job title="Database Administrator" time="2011-01-06 - 2014-08-31">
-            <organization name="Tart İnternet Teknolojileri Ticaret AŞ"
-                          location="İstanbul, Turkey"
+            <organization name="Tart Internet Technologies"
+                          location="Istanbul, Turkey"
                           address="tart.com.tr"/>
 
-            <organization name="Girişim Mutfağı Kuluçka Merkezi Teknoloji Hizmetleri AŞ"
-                          location="İstanbul, Turkey"
+            <organization name="Startup Kitchen Incubation Center"
+                          location="Istanbul, Turkey"
                           address="startup.kitchen"/>
 
             <project name="Playstore.com" address="playstore.com"
@@ -115,7 +108,7 @@
             <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
                     description="an application to send emails"/>
 
-           <project name="İşte Oyun" address="isteoyun.com"
+           <project name="Actapi"
                     description="a gamification server">
 
                 <accomplishment description="Monitoring setup for the servers"/>
@@ -130,7 +123,7 @@
                 <accomplishment description="Maintenance of the servers"/>
             </project>
 
-            <project name="Sihirhosting" address="sihirhosting.com"
+            <project name="SihirHosting" address="sihirhosting.com"
                      description="Internet hosting provider">
 
                 <accomplishment description="Migration of the domain name servers from BIND to Unbound and NSD"/>
@@ -149,10 +142,7 @@
                 <accomplishment description="Implementation of the new text search and auto-complete functions"/>
             </project>
 
-            <project name="Yaşar Holding PostgreSQL Training"
-                     address="www.astron.ws"
-                     description="IT company of an holding">
-
+            <project name="Yaşar Holding PostgreSQL Training">
                 <accomplishment description="Full day PostgreSQL training for system administrators and managers"/>
                 <accomplishment description="Three day PostgreSQL workshop for Java developers"/>
             </project>
@@ -190,7 +180,7 @@
         </item>
 
         <item name="German" start-year="2015">
-            <usage name="Spoken" level="Conversional"/>
+            <usage name="Spoken" level="Conversational"/>
             <usage name="Written" level="Beginner"/>
         </item>
 
@@ -233,9 +223,9 @@
             <usage name="Development" level="Beginner"/>
         </item>
 
-        <certificate name="Programming with C#">
-            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
-                          address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme"/>
+        <certificate name="Programming with C#"
+                     address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/yazilim-gelistirme">
+            <organization name="Istanbul Technical University - Information Technologies Department"/>
         </certificate>
     </knowledge>
 
@@ -302,9 +292,9 @@
             <usage name="Administration" level="Advanced"/>
         </item>
 
-        <course name="SQL Server 2005 Database Administration">
-            <organization name="İstanbul Teknik Üniversitesi Microsoft IT Academy"
-                          address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi"/>
+        <course name="SQL Server 2005 Database Administration"
+                address="www.btegitimleri.itu.edu.tr/itacademy/?egitim-bilgileri/veritabani-yoneticiligi">
+            <organization name="Istanbul Technical University - Information Technologies Department"/>
         </course>
 
         <contribution product="PostgreSQL 9.4"
@@ -343,36 +333,26 @@
 
     <voluntariness>
         <member time="2006 - 2012">
-            <organization name="İTÜ Maden Mühendisliği Kulübü"
-                          address="madenmk.itu.edu.tr"
-                          location="İstanbul, Turkey"
-                          description="mining enginnering student association"/>
+            <organization name="Istanbul Technical University - Mining Engineering Student Association"
+                          address="madenmk.itu.edu.tr"/>
 
-            <project name="Kaz Dağlarında Altın Arama Semineri"
-                     description="technical seminer about gold mining in Turkey"/>
-
-            <project name="Bergama Teknik Gezisi"
-                     description="technical trip to the gold mine of Koza Altın in Turkey"/>
-
-            <project name="Soma Teknik Gezisi"
-                     description="technical trip to the brown coal mine of TKI in Turkey"/>
-
-            <project name="Zonguldak Teknik Gezisi"
-                     description="technical trip to the Armutçuk institution of TTK in Turkey"/>
+            <project name="Searching Gold at Kaz Mountains Seminar"/>
+            <project name="Technical Trip to Bergama Gold Mine"/>
+            <project name="Technical Trip to Soma Brown Coal Underground Mine"/>
+            <project name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
         </member>
 
         <member time="2010 - ...">
-            <organization name="Türkiye Linux Kullanıcıları Derneği"
+            <organization name="Turkish Linux Users Society"
                           address="lkd.org.tr"
-                          location="İstanbul, Turkey"
-                          description="Turkish Linux users association"/>
+                          location="Istanbul, Turkey"/>
 
-            <project name="Özgür Yazılım ve Linux Günleri"
+            <project name="Linux and Free Software Days"
                      address="seminer.linux.org.tr"
-                     description="free software and Linux days organized by the association every year">
+                     location="Istanbul, Turkey">
 
-                <accomplishment description="Seminar about software development methodologies on 2011"/>
-                <accomplishment description="Seminar about replication, sharding techniques on 2013"/>
+                <accomplishment description="Talk about software development methodologies on 2011"/>
+                <accomplishment description="Talk about replication, sharding techniques on 2013"/>
             </project>
         </member>
     </voluntariness>

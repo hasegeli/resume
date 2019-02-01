@@ -148,23 +148,40 @@
             </project>
         </job>
 
-        <job title="Expert Database Administrator" time="2015-02-01 - ...">
+        <job title="Expert Database Administrator" time="2015-02-01 - 2018-08-10">
             <organization name="InnoGames GmbH" address="www.innogames.com"
                           location="Hamburg, Germany"/>
 
             <project name="Forge of Empires" address="www.forgeofempires.com"
-                     description="A free-to-play browser city-builder game"/>
+                     description="A free-to-play browser city-builder game">
+                <accomplishment description="Setting up point in time recovery for the game databases"/>
+                <accomplishment description="Designing and developing configuration management using Puppet"/>
+                <accomplishment description="Setting up replication with automated failover for the game databases"/>
+            </project>
+
             <project name="Elvenar" address="www.elvenar.com"
-                     description="A free-to-play browser city-builder game"/>
+                     description="A free-to-play browser city-builder game">
+                <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
+                <accomplishment description="Setting up point in time recovery for the game databases"/>
+                <accomplishment description="Designing and developing configuration management using Puppet"/>
+                <accomplishment description="Setting up replication with automated failover for the game databases"/>
+            </project>
 
-            <accomplishment description="Indexes of PostgreSQL talk at PGConf.de 2015"/>
-            <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
-            <accomplishment description="Setting up point in time recovery for the game databases"/>
-            <accomplishment description="Designing and developing configuration management using Puppet"/>
-            <accomplishment description="Setting up replication with automated failover for the game databases"/>
+            <project name="testtool" address="github.com/innogames/testtool"
+                     description="Home-grown load balancing tool">
+                <accomplishment description="Adding support for PostgreSQL connections"/>
+            </project>
 
+            <project name="serveradmin" address="github.com/innogames/serveradmin"
+                     description="Home-grown infrastructure management tool"/>
+            <project name="igvm" address="github.com/innogames/igvm"
+                     description="Home-grown VM provisioning tool"/>
             <project name="igcommit" address="github.com/innogames/igcommit"
                      description="Git pre-receive hook to keep repositories clean"/>
+            <project name="igmonplugins" address="github.com/innogames/igmonplugins"
+                     description="Home-grown monitoring scripts"/>
+            <project name="igcollect" address="github.com/innogames/igcollect"
+                     description="Home-grown metric connection scripts"/>
         </job>
     </experience>
 

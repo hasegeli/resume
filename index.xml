@@ -2,14 +2,14 @@
 <?xml-stylesheet type="text/xsl" href="person.xsl"?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com">
-    <education name="Izmir Private Turkish College - Science High School"
-               time="2002 - 2005"
-               address="www.ozelturkkoleji.com"/>
+    <education time="2002 - 2005">
+        <organization name="Izmir Private Turkish College - Science High School"
+                      address="www.ozelturkkoleji.com"/>
+    </education>
 
-    <education name="Istanbul Technical University - Faculty of Mines"
-               time="2005 - 2012 suspended"
-               department="Mining Engineering"
-               address="www.itu.edu.tr">
+    <education time="2005 - 2012 suspended" department="Mining Engineering">
+        <organization name="Istanbul Technical University - Faculty of Mines"
+                      address="www.itu.edu.tr"/>
 
         <internship title="Underground Mine"
                     time="2008-08-24 - 2008-08-29">

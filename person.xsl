@@ -32,14 +32,7 @@
                         <xsl:for-each select="education">
                             <p class="time"><xsl:value-of select="@time"/></p>
                             <p><xsl:value-of select="@department"/></p>
-                            <h5><xsl:value-of select="@name"/></h5>
-
-                            <p>
-                                <a>
-                                    <xsl:attribute name="href">http://<xsl:value-of select="@address"/></xsl:attribute>
-                                    <xsl:value-of select="@address"/>
-                                </a>
-                            </p>
+                            <xsl:apply-templates select="organization"/>
 
                             <xsl:if test="internship">
                                 <p>Internships:</p>

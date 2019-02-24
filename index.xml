@@ -29,15 +29,21 @@
                  location="Kütahya, Turkey"/>
     </education>
 
-    <voluntarines time="2006 - 2012">
-        <organization name="Istanbul Technical University - Mining Engineering Student Association"
-                      address="madenmk.itu.edu.tr"/>
+    <participation>
+        <event name="Searching Gold at Kaz Mountains Seminar"/>
+    </participation>
 
-        <project name="Searching Gold at Kaz Mountains Seminar"/>
-        <project name="Technical Trip to Bergama Gold Mine"/>
-        <project name="Technical Trip to Soma Brown Coal Underground Mine"/>
-        <project name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
-    </voluntarines>
+    <participation>
+        <event name="Technical Trip to Bergama Gold Mine"/>
+    </participation>
+
+    <participation>
+        <event name="Technical Trip to Soma Brown Coal Underground Mine"/>
+    </participation>
+
+    <participation>
+        <event name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
+    </participation>
 
     <experience title="Part Time Student Assistant" time="2007 - 2013">
         <organization name="Istanbul Technical University - Health Culture Sport Department"
@@ -64,19 +70,20 @@
                  description="web based database management tool configurable in the database"/>
     </experience>
 
-    <voluntarines time="2010 - ...">
-        <organization name="Turkish Linux Users Society"
-                      address="lkd.org.tr"
-                      location="Istanbul, Turkey"/>
+	<participation>
+		<event name="Linux and Free Software Days 2010"
+			   location="Istanbul, Turkey">
+		</event>
+	</participation>
 
-        <project name="Linux and Free Software Days"
-                 address="seminer.linux.org.tr"
-                 location="Istanbul, Turkey">
+	<participation>
+		<event name="Linux and Free Software Days 2011"
+			   address="ozguryazilimgunleri.org.tr/2011"
+			   location="Istanbul, Turkey">
+		</event>
 
-            <accomplishment description="Talk about software development methodologies on 2011"/>
-            <accomplishment description="Talk about replication, sharding techniques on 2013"/>
-        </project>
-    </voluntarines>
+		<talk description="Software development methodologies"/>
+	</participation>
 
     <experience title="Database Administrator" time="2011-01-06 - 2014-08-31">
         <organization name="Tart Internet Technologies"
@@ -154,6 +161,36 @@
         </project>
     </experience>
 
+	<participation>
+		<event name="PostgreSQL Conference Europe 2012"
+			   address="2012.pgconf.eu"
+			   location="Prague, Czech Republic">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="Linux and Free Software Days 2013"
+			   address="ozguryazilimgunleri.org.tr/2013"
+			   location="Istanbul, Turkey">
+		</event>
+
+		<talk description="Database replication, sharding techniques"/>
+	</participation>
+
+	<participation>
+		<event name="PGCon 2013"
+			   address="www.pgcon.org/2013"
+			   location="Ottawa, Ontario, Canada">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="FOSDEM 2014"
+			   address="archive.fosdem.org/2014"
+			   location="Brussels, Belgium">
+		</event>
+	</participation>
+
     <experience title="Consultant" time="2014-09-01 - 2014-12-31">
         <project name="Emlak Jet" address="emlakjet.com"
                  description="a private listing application">
@@ -204,6 +241,105 @@
         <project name="igcollect" address="github.com/innogames/igcollect"
                  description="Home-grown metric connection scripts"/>
     </experience>
+
+	<participation>
+		<event name="German-speaking PostgreSQL Conference 2015"
+			   address="2015.pgconf.de"
+			   location="Hamburg, Germany">
+		</event>
+
+		<talk description="Indexes of PostgreSQL"/>
+	</participation>
+
+	<participation>
+		<event name="PostgreSQL Conference Europe 2015"
+			   address="2015.pgconf.eu"
+			   location="Vienna, Austria">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="FOSDEM 2016"
+			   address="archive.fosdem.org/2016"
+			   location="Brussels, Belgium">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="5432... Meet Us!"
+			   address="2016.5432meet.us"
+			   location="Milan, Italy">
+		</event>
+
+		<talk description="Indexes of PostgreSQL"/>
+	</participation>
+
+	<participation>
+		<event name="PGCon 2016"
+			   address="www.pgcon.org/2016"
+			   location="Ottawa, Ontario, Canada">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="PostgreSQL Conference Europe 2016"
+			   address="2016.pgconf.eu"
+			   location="Tallinn, Estonia">
+		</event>
+
+		<talk description="Managing thousands of database servers"/>
+	</participation>
+
+	<participation>
+		<event name="FOSDEM 2017"
+			   address="archive.fosdem.org/2017"
+			   location="Brussels, Belgium">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="PGCon 2017"
+			   address="www.pgcon.org/2017"
+			   location="Ottawa, Ontario, Canada">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="PostgreSQL Conference Europe 2017"
+			   address="2017.pgconf.eu"
+			   location="Warsaw, Poland">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="FOSDEM 2018"
+			   address="archive.fosdem.org/2018"
+			   location="Brussels, Belgium">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="German-speaking PostgreSQL Conference 2018"
+			   address="2018.pgconf.de"
+			   location="Hamburg, Germany">
+		</event>
+
+		<talk description="Text search on PostgreSQL with German emphasis"/>
+	</participation>
+
+	<participation>
+		<event name="PGCon 2018"
+			   address="www.pgcon.org/2018"
+			   location="Ottawa, Ontario, Canada">
+		</event>
+	</participation>
+
+	<participation>
+		<event name="FOSDEM 2019"
+			   address="archive.fosdem.org/2019"
+			   location="Brussels, Belgium">
+		</event>
+	</participation>
 
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">

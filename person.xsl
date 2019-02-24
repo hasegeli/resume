@@ -101,8 +101,8 @@
                         </blockquote>
                     </xsl:for-each>
 
-                    <h3>Voluntarines</h3>
-                    <blockquote><xsl:apply-templates select="voluntarines"/></blockquote>
+                    <h3>Participated Events</h3>
+                    <blockquote><xsl:apply-templates select="participation"/></blockquote>
                 </blockquote>
             </body>
         </html>
@@ -118,6 +118,12 @@
         <xsl:apply-templates/>
     </xsl:template>
 
+    <xsl:template match="talk">
+        <blockquote>
+            <p>Given talk: <i><xsl:value-of select="@description"/></i></p>
+        </blockquote>
+    </xsl:template>
+
     <xsl:template match="contribution">
         <p><i> <xsl:value-of select="@product"/>: </i> <xsl:value-of select="@description"/></p>
 
@@ -131,7 +137,7 @@
         </blockquote>
     </xsl:template>
 
-    <xsl:template match="organization | project">
+    <xsl:template match="event | organization | project">
         <h5><xsl:value-of select="@name"/></h5>
 
         <blockquote>

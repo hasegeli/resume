@@ -47,7 +47,14 @@
                     </blockquote>
 
                     <h3>Experience</h3>
-                    <blockquote><xsl:apply-templates select="experience"/></blockquote>
+
+                    <blockquote>
+                        <xsl:for-each select="experience">
+                            <p class="time"><xsl:value-of select="@time"/></p>
+                            <p><xsl:value-of select="@title"/></p>
+                            <xsl:apply-templates/>
+                        </xsl:for-each>
+                    </blockquote>
 
                     <xsl:for-each select="knowledge">
                         <h3><xsl:value-of select="@about"/></h3>

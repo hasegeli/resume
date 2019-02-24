@@ -2,187 +2,207 @@
 <?xml-stylesheet type="text/xsl" href="person.xsl"?>
 
 <person name="Emre Hasegeli" mail="emre@hasegeli.com">
-    <education>
-        <school name="Izmir Private Turkish College - Science High School"
-                time="2002 - 2005"
-                address="www.ozelturkkoleji.com"/>
+    <education name="Izmir Private Turkish College - Science High School"
+               time="2002 - 2005"
+               address="www.ozelturkkoleji.com"/>
 
-        <school name="Istanbul Technical University - Faculty of Mines"
-                time="2005 - 2012 suspended"
-                department="Mining Engineering"
-                address="www.itu.edu.tr">
+    <education name="Istanbul Technical University - Faculty of Mines"
+               time="2005 - 2012 suspended"
+               department="Mining Engineering"
+               address="www.itu.edu.tr">
 
-            <internship title="Underground Mine"
-                        time="2008-08-24 - 2008-08-29">
+        <internship title="Underground Mine"
+                    time="2008-08-24 - 2008-08-29">
 
-                <organization name="Turkish Pit Coal Establishment - Üzülmez Enterprise - Asma-Dilaver Company"
-                              location="Zonguldak, Turkey"
-                              address="www.taskomuru.gov.tr"/>
-            </internship>
+            <organization name="Turkish Pit Coal Establishment - Üzülmez Enterprise - Asma-Dilaver Company"
+                          location="Zonguldak, Turkey"
+                          address="www.taskomuru.gov.tr"/>
+        </internship>
 
-            <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
-                <organization name="Kalemaden - Ömerli Stock Field"
-                              location="Istanbul, Turkey"
-                              address="www.kalemaden.com.tr"/>
-            </internship>
+        <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
+            <organization name="Kalemaden - Ömerli Stock Field"
+                          location="Istanbul, Turkey"
+                          address="www.kalemaden.com.tr"/>
+        </internship>
 
-            <project name="Slope Stability Analyses of Seyitömer Brown Coal Panel A19"
-                     location="Kütahya, Turkey"/>
-        </school>
+        <project name="Slope Stability Analyses of Seyitömer Brown Coal Panel A19"
+                 location="Kütahya, Turkey"/>
     </education>
 
-    <experience>
-        <job title="Part Time Student Assistant" time="2007 - 2013">
-            <organization name="Istanbul Technical University - Health Culture Sport Department"
-                          address="www.sks.itu.edu.tr"/>
-        </job>
+    <voluntarines time="2006 - 2012">
+        <organization name="Istanbul Technical University - Mining Engineering Student Association"
+                      address="madenmk.itu.edu.tr"/>
 
-        <job title="Programmer" time="2008-05-09 - 2010-06-01">
-            <organization name="Ares Technology"
-                          location="Istanbul, Turkey"/>
+        <project name="Searching Gold at Kaz Mountains Seminar"/>
+        <project name="Technical Trip to Bergama Gold Mine"/>
+        <project name="Technical Trip to Soma Brown Coal Underground Mine"/>
+        <project name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
+    </voluntarines>
 
-            <project name="Vademecum"
-                     address="vademecumonline.com.tr"
-                     description="a medicine database for Medical Tribune Turkey">
+    <experience title="Part Time Student Assistant" time="2007 - 2013">
+        <organization name="Istanbul Technical University - Health Culture Sport Department"
+                      address="www.sks.itu.edu.tr"/>
+    </experience>
 
-                <accomplishment description="Modeling and development of the database"/>
-                <accomplishment description="Migration of the data from a book to MySQL"/>
-                <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
-                <accomplishment description="Development a data correction panel for the database"/>
-                <accomplishment description="Development database model layer of the Vademecum Online"/>
-                <accomplishment description="Requirement analyse and development of the Vademecum Web Service"/>
-            </project>
+    <experience title="Programmer" time="2008-05-09 - 2010-06-01">
+        <organization name="Ares Technology"
+                      location="Istanbul, Turkey"/>
 
-            <project name="Pertyler" address="code.google.com/p/pertyler"
-                     description="web based database management tool configurable in the database"/>
-        </job>
+        <project name="Vademecum"
+                 address="vademecumonline.com.tr"
+                 description="a medicine database for Medical Tribune Turkey">
 
-        <job title="Database Administrator" time="2011-01-06 - 2014-08-31">
-            <organization name="Tart Internet Technologies"
-                          location="Istanbul, Turkey"
-                          address="tart.com.tr"/>
+            <accomplishment description="Modeling and development of the database"/>
+            <accomplishment description="Migration of the data from a book to MySQL"/>
+            <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
+            <accomplishment description="Development a data correction panel for the database"/>
+            <accomplishment description="Development database model layer of the Vademecum Online"/>
+            <accomplishment description="Requirement analyse and development of the Vademecum Web Service"/>
+        </project>
 
-            <organization name="Startup Kitchen Incubation Center"
-                          location="Istanbul, Turkey"
-                          address="startup.kitchen"/>
+        <project name="Pertyler" address="code.google.com/p/pertyler"
+                 description="web based database management tool configurable in the database"/>
+    </experience>
 
-            <project name="Playstore.com" address="playstore.com"
-                     description="an e-commerce application">
+    <voluntarines time="2010 - ...">
+        <organization name="Turkish Linux Users Society"
+                      address="lkd.org.tr"
+                      location="Istanbul, Turkey"/>
 
-                <accomplishment description="Modeling, development and administration of the databases"/>
-                <accomplishment description="Migration of the main database from Oracle to PostgreSQL"/>
-                <accomplishment description="Migration of the content database from MySQL to PostgreSQL"/>
-                <accomplishment description="Monitoring setup for the PostgreSQL servers"/>
-                <accomplishment description="Transferring development, maintenance and administration to another team"/>
-            </project>
+        <project name="Linux and Free Software Days"
+                 address="seminer.linux.org.tr"
+                 location="Istanbul, Turkey">
 
-            <project name="Tuttur.com" address="tuttur.com"
-                     description="a social online betting service">
+            <accomplishment description="Talk about software development methodologies on 2011"/>
+            <accomplishment description="Talk about replication, sharding techniques on 2013"/>
+        </project>
+    </voluntarines>
 
-                <accomplishment description="Development and administration of the databases"/>
-                <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
-                <accomplishment description="Performance tuning for the MySQL servers"/>
-                <accomplishment description="Monitoring setup for the servers"/>
-                <accomplishment description="Incident management and notification setup"/>
-                <accomplishment description="Identity management system implementation"/>
-                <accomplishment description="Centralised logging system implementation"/>
-                <accomplishment description="Upgrading storage hardware"/>
-                <accomplishment description="Planing data integrity improvements"/>
-                <accomplishment description="Deployment and configuration management system development"/>
-                <accomplishment description="Transferring development, maintenance and administration to another team"/>
-            </project>
+    <experience title="Database Administrator" time="2011-01-06 - 2014-08-31">
+        <organization name="Tart Internet Technologies"
+                      location="Istanbul, Turkey"
+                      address="tart.com.tr"/>
 
-            <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi"
-                     description="summer camp">
+        <organization name="Startup Kitchen Incubation Center"
+                      location="Istanbul, Turkey"
+                      address="startup.kitchen"/>
 
-                <accomplishment description="Database basics lesson"/>
-            </project>
+        <project name="Playstore.com" address="playstore.com"
+                 description="an e-commerce application">
 
-            <project name="Motop" address="github.com/tart/motop"
-                     description="realtime monitoring tool for several MongoDB servers"/>
+            <accomplishment description="Modeling, development and administration of the databases"/>
+            <accomplishment description="Migration of the main database from Oracle to PostgreSQL"/>
+            <accomplishment description="Migration of the content database from MySQL to PostgreSQL"/>
+            <accomplishment description="Monitoring setup for the PostgreSQL servers"/>
+            <accomplishment description="Transferring development, maintenance and administration to another team"/>
+        </project>
 
-            <project name="Tart-Integration"
-                     address="github.com/tart/tart-integration"
-                     description="an integration tool for incident management"/>
+        <project name="Tuttur.com" address="tuttur.com"
+                 description="a social online betting service">
 
-            <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
-                    description="an application to send emails"/>
+            <accomplishment description="Development and administration of the databases"/>
+            <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
+            <accomplishment description="Performance tuning for the MySQL servers"/>
+            <accomplishment description="Monitoring setup for the servers"/>
+            <accomplishment description="Incident management and notification setup"/>
+            <accomplishment description="Identity management system implementation"/>
+            <accomplishment description="Centralised logging system implementation"/>
+            <accomplishment description="Upgrading storage hardware"/>
+            <accomplishment description="Planing data integrity improvements"/>
+            <accomplishment description="Deployment and configuration management system development"/>
+            <accomplishment description="Transferring development, maintenance and administration to another team"/>
+        </project>
 
-           <project name="Actapi"
-                    description="a gamification server">
+        <project name="Tart Yaz Kampı" address="tart.com.tr/yazkampi"
+                 description="summer camp">
 
-                <accomplishment description="Monitoring setup for the servers"/>
-                <accomplishment description="Deployment and configuration management system development"/>
-                <accomplishment description="Maintenance and documentation of the API"/>
-            </project>
+            <accomplishment description="Database basics lesson"/>
+        </project>
 
-            <project name="Kixel World of Soccer" address="kixel.co"
-                     description="a game on Facebook">
+        <project name="Motop" address="github.com/tart/motop"
+                 description="realtime monitoring tool for several MongoDB servers"/>
 
-                <accomplishment description="Deployment to Amazon Web Services"/>
-                <accomplishment description="Maintenance of the servers"/>
-            </project>
+        <project name="Tart-Integration"
+                 address="github.com/tart/tart-integration"
+                 description="an integration tool for incident management"/>
 
-            <project name="SihirHosting" address="sihirhosting.com"
-                     description="Internet hosting provider">
+        <project name="Tart-Mailer" address="github.com/tart/tart-mailer"
+                 description="an application to send emails"/>
 
-                <accomplishment description="Migration of the domain name servers from BIND to Unbound and NSD"/>
-                <accomplishment description="Migration of the email servers from Qmail to Postfix"/>
-                <accomplishment description="Monitoring setup for the servers"/>
-                <accomplishment description="Network redesign and application"/>
-            </project>
-        </job>
+        <project name="Actapi"
+                 description="a gamification server">
 
-        <job title="Consultant" time="2014-09-01 - 2014-12-31">
-            <project name="Emlak Jet" address="emlakjet.com"
-                     description="a private listing application">
+            <accomplishment description="Monitoring setup for the servers"/>
+            <accomplishment description="Deployment and configuration management system development"/>
+            <accomplishment description="Maintenance and documentation of the API"/>
+        </project>
 
-                <accomplishment description="Modeling and development of the database of the new version of the application"/>
-                <accomplishment description="Design and development of MySQL to PostgreSQL replication application"/>
-                <accomplishment description="Implementation of the new text search and auto-complete functions"/>
-            </project>
+        <project name="Kixel World of Soccer" address="kixel.co"
+                 description="a game on Facebook">
 
-            <project name="Yaşar Holding PostgreSQL Training">
-                <accomplishment description="Full day PostgreSQL training for system administrators and managers"/>
-                <accomplishment description="Three day PostgreSQL workshop for Java developers"/>
-            </project>
-        </job>
+            <accomplishment description="Deployment to Amazon Web Services"/>
+            <accomplishment description="Maintenance of the servers"/>
+        </project>
 
-        <job title="Expert Database Administrator" time="2015-02-01 - 2018-08-10">
-            <organization name="InnoGames GmbH" address="www.innogames.com"
-                          location="Hamburg, Germany"/>
+        <project name="SihirHosting" address="sihirhosting.com"
+                 description="Internet hosting provider">
 
-            <project name="Forge of Empires" address="www.forgeofempires.com"
-                     description="A free-to-play browser city-builder game">
-                <accomplishment description="Setting up point in time recovery for the game databases"/>
-                <accomplishment description="Designing and developing configuration management using Puppet"/>
-                <accomplishment description="Setting up replication with automated failover for the game databases"/>
-            </project>
+            <accomplishment description="Migration of the domain name servers from BIND to Unbound and NSD"/>
+            <accomplishment description="Migration of the email servers from Qmail to Postfix"/>
+            <accomplishment description="Monitoring setup for the servers"/>
+            <accomplishment description="Network redesign and application"/>
+        </project>
+    </experience>
 
-            <project name="Elvenar" address="www.elvenar.com"
-                     description="A free-to-play browser city-builder game">
-                <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
-                <accomplishment description="Setting up point in time recovery for the game databases"/>
-                <accomplishment description="Designing and developing configuration management using Puppet"/>
-                <accomplishment description="Setting up replication with automated failover for the game databases"/>
-            </project>
+    <experience title="Consultant" time="2014-09-01 - 2014-12-31">
+        <project name="Emlak Jet" address="emlakjet.com"
+                 description="a private listing application">
 
-            <project name="testtool" address="github.com/innogames/testtool"
-                     description="Home-grown load balancing tool">
-                <accomplishment description="Adding support for PostgreSQL connections"/>
-            </project>
+            <accomplishment description="Modeling and development of the database of the new version of the application"/>
+            <accomplishment description="Design and development of MySQL to PostgreSQL replication application"/>
+            <accomplishment description="Implementation of the new text search and auto-complete functions"/>
+        </project>
 
-            <project name="serveradmin" address="github.com/innogames/serveradmin"
-                     description="Home-grown infrastructure management tool"/>
-            <project name="igvm" address="github.com/innogames/igvm"
-                     description="Home-grown VM provisioning tool"/>
-            <project name="igcommit" address="github.com/innogames/igcommit"
-                     description="Git pre-receive hook to keep repositories clean"/>
-            <project name="igmonplugins" address="github.com/innogames/igmonplugins"
-                     description="Home-grown monitoring scripts"/>
-            <project name="igcollect" address="github.com/innogames/igcollect"
-                     description="Home-grown metric connection scripts"/>
-        </job>
+        <project name="Yaşar Holding PostgreSQL Training">
+            <accomplishment description="Full day PostgreSQL training for system administrators and managers"/>
+            <accomplishment description="Three day PostgreSQL workshop for Java developers"/>
+        </project>
+    </experience>
+
+    <experience title="Expert Database Administrator" time="2015-02-01 - 2018-08-10">
+        <organization name="InnoGames GmbH" address="www.innogames.com"
+                      location="Hamburg, Germany"/>
+
+        <project name="Forge of Empires" address="www.forgeofempires.com"
+                 description="A free-to-play browser city-builder game">
+            <accomplishment description="Setting up point in time recovery for the game databases"/>
+            <accomplishment description="Designing and developing configuration management using Puppet"/>
+            <accomplishment description="Setting up replication with automated failover for the game databases"/>
+        </project>
+
+        <project name="Elvenar" address="www.elvenar.com"
+                 description="A free-to-play browser city-builder game">
+            <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
+            <accomplishment description="Setting up point in time recovery for the game databases"/>
+            <accomplishment description="Designing and developing configuration management using Puppet"/>
+            <accomplishment description="Setting up replication with automated failover for the game databases"/>
+        </project>
+
+        <project name="testtool" address="github.com/innogames/testtool"
+                 description="Home-grown load balancing tool">
+            <accomplishment description="Adding support for PostgreSQL connections"/>
+        </project>
+
+        <project name="serveradmin" address="github.com/innogames/serveradmin"
+                 description="Home-grown infrastructure management tool"/>
+        <project name="igvm" address="github.com/innogames/igvm"
+                 description="Home-grown VM provisioning tool"/>
+        <project name="igcommit" address="github.com/innogames/igcommit"
+                 description="Git pre-receive hook to keep repositories clean"/>
+        <project name="igmonplugins" address="github.com/innogames/igmonplugins"
+                 description="Home-grown monitoring scripts"/>
+        <project name="igcollect" address="github.com/innogames/igcollect"
+                 description="Home-grown metric connection scripts"/>
     </experience>
 
     <knowledge about="Natural Languages">
@@ -347,30 +367,4 @@
         <certificate title="Turkish Driving License"/>
         <certificate title="German Driving License"/>
     </knowledge>
-
-    <voluntariness>
-        <member time="2006 - 2012">
-            <organization name="Istanbul Technical University - Mining Engineering Student Association"
-                          address="madenmk.itu.edu.tr"/>
-
-            <project name="Searching Gold at Kaz Mountains Seminar"/>
-            <project name="Technical Trip to Bergama Gold Mine"/>
-            <project name="Technical Trip to Soma Brown Coal Underground Mine"/>
-            <project name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
-        </member>
-
-        <member time="2010 - ...">
-            <organization name="Turkish Linux Users Society"
-                          address="lkd.org.tr"
-                          location="Istanbul, Turkey"/>
-
-            <project name="Linux and Free Software Days"
-                     address="seminer.linux.org.tr"
-                     location="Istanbul, Turkey">
-
-                <accomplishment description="Talk about software development methodologies on 2011"/>
-                <accomplishment description="Talk about replication, sharding techniques on 2013"/>
-            </project>
-        </member>
-    </voluntariness>
 </person>

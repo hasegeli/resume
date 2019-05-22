@@ -52,7 +52,18 @@
                         <xsl:for-each select="experience">
                             <p class="time"><xsl:value-of select="@time"/></p>
                             <p><xsl:value-of select="@title"/></p>
-                            <xsl:apply-templates/>
+                            <xsl:apply-templates select="organization"/>
+
+                            <ul>
+                                <xsl:for-each select="accomplishment">
+                                    <li><xsl:value-of select="@description"/></li>
+                                </xsl:for-each>
+                            </ul>
+
+                            <xsl:if test="project">
+                                <p>Projects:</p>
+                                <blockquote><xsl:apply-templates select="project"/></blockquote>
+                            </xsl:if>
                         </xsl:for-each>
                     </blockquote>
 
@@ -153,14 +164,6 @@
                     <xsl:value-of select="@address"/>
                 </a>
             </p>
-
-            <xsl:if test="accomplishment">
-                <ul>
-                    <xsl:for-each select="accomplishment">
-                        <li><xsl:value-of select="@description"/></li>
-                    </xsl:for-each>
-                </ul>
-            </xsl:if>
         </blockquote>
     </xsl:template>
 </xsl:stylesheet>

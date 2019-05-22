@@ -344,12 +344,12 @@
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">
             <usage name="Spoken" level="Native"/>
-            <usage name="Written" level="Fluent"/>
+            <usage name="Written" level="Advanced"/>
         </item>
 
         <item name="English" start-year="1996">
             <usage name="Spoken" level="Fluent"/>
-            <usage name="Written" level="Fluent"/>
+            <usage name="Written" level="Advanced"/>
         </item>
 
         <item name="German" start-year="2015">

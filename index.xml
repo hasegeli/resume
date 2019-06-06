@@ -309,6 +309,16 @@
 		</event>
 	</participation>
 
+    <experience title="Database Expert" time="2018-08-20">
+        <organization name="Smarkets" address="smarkets.com"
+                      location="London, United Kingdom"/>
+
+        <accomplishment description="Advise developers on architectural decisions related to the data layer"/>
+        <accomplishment description="Ensure the databases are well-structured, secure, robust to failures and performant"/>
+        <accomplishment description="Set up table partitioning for account activities"/>
+        <accomplishment description="Prepare PostgreSQL 11 setup to run in Kubernetes"/>
+    </experience>
+
 	<participation>
 		<event name="FOSDEM 2019"
 			   address="archive.fosdem.org/2019"

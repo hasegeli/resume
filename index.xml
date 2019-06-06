@@ -461,6 +461,10 @@
                       description="SP-GiST index support for IP address types"
                       address="git.postgresql.org/pg/commitdiff/77e29068"/>
 
+        <contribution product="PostgreSQL"
+                      description="Various other fixes and improvements"
+                      address="git.postgresql.org/gitweb/?p=postgresql.git&amp;a=search&amp;st=commit&amp;s=Emre+Hasegeli"/>
+
         <contribution product="puppetlabs-postgresql"
                       description="Maintenance and integrations features"
                       address="github.com/puppetlabs/puppetlabs-postgresql/commits?author=hasegeli"/>

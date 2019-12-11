@@ -54,12 +54,12 @@
         <organization name="Ares Technology"
                       location="Istanbul, Turkey"/>
 
-        <accomplishment description="Modeling and development of the medicine database"/>
-        <accomplishment description="Migration of the drug handbook to SQL"/>
-        <accomplishment description="Migration of the main database from MySQL to PostgreSQL"/>
-        <accomplishment description="Development of a data correction panel for the database"/>
-        <accomplishment description="Development of the backend of Vademecum Online"/>
-        <accomplishment description="Requirement analyses and development of the Vademecum Web Service"/>
+        <accomplishment description="Model and develop a medicine database"/>
+        <accomplishment description="Migrate the drug handbook to SQL"/>
+        <accomplishment description="Migrate of the main database from MySQL to PostgreSQL"/>
+        <accomplishment description="Develop a data correction panel for the database"/>
+        <accomplishment description="Develop the backend of Vademecum Online"/>
+        <accomplishment description="Design and develop the Vademecum Web Service"/>
 
         <project name="Vademecum"
                  address="vademecumonline.com.tr"
@@ -93,18 +93,18 @@
                       location="Istanbul, Turkey"
                       address="startup.kitchen"/>
 
-        <accomplishment description="Modeling, development and administration of the databases"/>
+        <accomplishment description="Model, develop and administrate the databases"/>
         <accomplishment description="Performance tuning for MySQL servers of Tuttur.com"/>
-        <accomplishment description="Upgrading storage hardware of Tuttur.com"/>
-        <accomplishment description="Migration of the main database of Tuttur.com from MySQL to PostgreSQL"/>
-        <accomplishment description="Migration of the main database of Playstore.com from Oracle to PostgreSQL"/>
+        <accomplishment description="Upgrade storage hardware of Tuttur.com"/>
+        <accomplishment description="Migrate of the main database of Tuttur.com from MySQL to PostgreSQL"/>
+        <accomplishment description="Migrate of the main database of Playstore.com from Oracle to PostgreSQL"/>
         <accomplishment description="Troubleshooting and improving data integrity of Tuttur.com"/>
         <accomplishment description="Monitoring, incident management, and notification setup"/>
         <accomplishment description="Identity management system implementation"/>
         <accomplishment description="Centralised logging system implementation"/>
         <accomplishment description="Deployment and configuration management system development"/>
         <accomplishment description="Migration of the Drupal CMS data to custom database"/>
-        <accomplishment description="Transferring development, maintenance and administration of Tuttur.com and Playstore.com to other teams"/>
+        <accomplishment description="Transfer development, maintenance and administration of Tuttur.com and Playstore.com to other teams"/>
         <accomplishment description="Maintenance and documentation of IsteOyun API"/>
         <accomplishment description="Deployment of IsteOyun to Amazon Web Services"/>
         <accomplishment description="Migration of the domain name servers from BIND to Unbound and NSD"/>
@@ -170,9 +170,9 @@
 	</participation>
 
     <experience title="Consultant" time="2014-09-01 - 2014-12-31">
-        <accomplishment description="Modeling and development of the database of the new version of Emlak Jet"/>
-        <accomplishment description="Design and development of MySQL to PostgreSQL replication for the new version of Emlak Jet"/>
-        <accomplishment description="Implementation of the new text search and auto-complete functions for Emlak Jet"/>
+        <accomplishment description="Model and develop of the database of the new version of Emlak Jet"/>
+        <accomplishment description="Design and develop from MySQL to PostgreSQL replication for the new version of Emlak Jet"/>
+        <accomplishment description="Implement of the new text search and auto-complete functions for Emlak Jet"/>
         <accomplishment description="Full day PostgreSQL training for system administrators and managers of Astron BT"/>
         <accomplishment description="Three day PostgreSQL workshop for Java developers of Astron BT"/>
 
@@ -186,11 +186,12 @@
         <organization name="InnoGames GmbH" address="www.innogames.com"
                       location="Hamburg, Germany"/>
 
-        <accomplishment description="Setting up point in time recovery for the game databases"/>
-        <accomplishment description="Designing and developing configuration management using Puppet"/>
-        <accomplishment description="Setting up replication with automated failover for the game databases"/>
-        <accomplishment description="Planning upgrade of the game database servers from PostgreSQL 9.3 to 9.5"/>
-        <accomplishment description="Designing and implementing custom load balancing for PostgreSQL connections"/>
+        <accomplishment description="Serve as in-house database consultant"/>
+        <accomplishment description="Set up point in time recovery"/>
+        <accomplishment description="Design and develop configuration management using Puppet"/>
+        <accomplishment description="Set up replication with automated failover for the game databases"/>
+        <accomplishment description="Plan upgrade from PostgreSQL 9.3 to 9.5"/>
+        <accomplishment description="Design and implement custom load balancing for PostgreSQL connections"/>
 
         <project name="Forge of Empires" address="www.forgeofempires.com"
                  description="A free-to-play browser city-builder game"/>

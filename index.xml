@@ -320,6 +320,11 @@
         <accomplishment description="Prepare PostgreSQL 11 setup to run in Kubernetes"/>
     </experience>
 
+    <experience title="Database Consultant" time="2020-01-01">
+        <organization name="End Point Corporation" address="endpointdev.com"
+                      location="New York, United States" remote="true"/>
+    </experience>
+
 	<participation>
 		<event name="FOSDEM 2019"
 			   address="archive.fosdem.org/2019"

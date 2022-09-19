@@ -15,18 +15,18 @@
                     time="2008-08-24 - 2008-08-29">
 
             <organization name="Turkish Pit Coal Establishment - Üzülmez Enterprise - Asma-Dilaver Company"
-                          location="Zonguldak, Turkey"
+                          location="Zonguldak, Türkiye"
                           address="www.taskomuru.gov.tr"/>
         </internship>
 
         <internship title="Open Pit Mine" time="2010-08-16 - 2010-09-05">
             <organization name="Kalemaden - Ömerli Stock Field"
-                          location="Istanbul, Turkey"
+                          location="Istanbul, Türkiye"
                           address="www.kalemaden.com.tr"/>
         </internship>
 
         <project name="Slope Stability Analyses of Seyitömer Brown Coal Panel A19"
-                 location="Kütahya, Turkey"/>
+                 location="Kütahya, Türkiye"/>
     </education>
 
     <participation>
@@ -52,7 +52,7 @@
 
     <experience title="Programmer" time="2008-05-09 - 2010-06-01">
         <organization name="Ares Technology"
-                      location="Istanbul, Turkey"/>
+                      location="Istanbul, Türkiye"/>
 
         <accomplishment description="Model and develop a medicine database"/>
         <accomplishment description="Migrate the drug handbook to SQL"/>
@@ -63,7 +63,7 @@
 
         <project name="Vademecum"
                  address="vademecumonline.com.tr"
-                 description="a medicine database for Medical Tribune Turkey"/>
+                 description="a medicine database for Medical Tribune Türkiye"/>
 
         <project name="Pertyler" address="code.google.com/p/pertyler"
                  description="web based database management tool configurable in the database"/>
@@ -71,14 +71,14 @@
 
 	<participation>
 		<event name="Linux and Free Software Days 2010"
-			   location="Istanbul, Turkey">
+			   location="Istanbul, Türkiye">
 		</event>
 	</participation>
 
 	<participation>
 		<event name="Linux and Free Software Days 2011"
 			   address="ozguryazilimgunleri.org.tr/2011"
-			   location="Istanbul, Turkey">
+			   location="Istanbul, Türkiye">
 		</event>
 
 		<talk description="Software development methodologies"/>
@@ -86,11 +86,11 @@
 
     <experience title="Database Administrator" time="2011-01-06 - 2014-08-31">
         <organization name="Tart Internet Technologies"
-                      location="Istanbul, Turkey"
+                      location="Istanbul, Türkiye"
                       address="tart.com.tr"/>
 
         <organization name="Startup Kitchen Incubation Center"
-                      location="Istanbul, Turkey"
+                      location="Istanbul, Türkiye"
                       address="startup.kitchen"/>
 
         <accomplishment description="Model, develop and administrate the databases"/>
@@ -149,7 +149,7 @@
 	<participation>
 		<event name="Linux and Free Software Days 2013"
 			   address="ozguryazilimgunleri.org.tr/2013"
-			   location="Istanbul, Turkey">
+			   location="Istanbul, Türkiye">
 		</event>
 
 		<talk description="Database replication, sharding techniques"/>

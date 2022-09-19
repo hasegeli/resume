@@ -300,7 +300,8 @@
                location="Hamburg, Germany">
         </event>
 
-        <talk description="Text search on PostgreSQL with German emphasis"/>
+        <talk description="Text search on PostgreSQL with German emphasis"
+              slides="text_search.pdf"/>
     </participation>
 
     <participation>

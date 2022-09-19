@@ -132,6 +132,17 @@
     <xsl:template match="talk">
         <blockquote>
             <p>Given talk: <i><xsl:value-of select="@description"/></i></p>
+
+            <xsl:if test="@slides">
+                <blockquote>
+                    <p>
+                        <a>
+                            <xsl:attribute name="href"><xsl:value-of select="@slides"/></xsl:attribute>
+                            Slides
+                        </a>
+                    </p>
+                </blockquote>
+            </xsl:if>
         </blockquote>
     </xsl:template>
 

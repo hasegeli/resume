@@ -153,7 +153,12 @@
 
         <blockquote>
             <xsl:if test="@location">
-                <p class="location"><xsl:value-of select="@location"/></p>
+				<xsl:if test="@remote">
+					<p class="location"><xsl:value-of select="@location"/> (remote)</p>
+				</xsl:if>
+				<xsl:else>
+					<p class="location"><xsl:value-of select="@location"/></p>
+				</xsl:else>
             </xsl:if>
 
             <p><xsl:value-of select="@description"/></p>

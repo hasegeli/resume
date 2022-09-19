@@ -320,17 +320,24 @@
         <accomplishment description="Prepare PostgreSQL 11 setup to run in Kubernetes"/>
     </experience>
 
-    <experience title="Database Consultant" time="2020-01-01">
-        <organization name="End Point Corporation" address="endpointdev.com"
-                      location="New York, United States" remote="true"/>
-    </experience>
-
 	<participation>
 		<event name="FOSDEM 2019"
 			   address="archive.fosdem.org/2019"
 			   location="Brussels, Belgium">
 		</event>
 	</participation>
+
+	<participation>
+		<event name="PostgreSQL Conference Europe 2019"
+			   address="2019.pgconf.eu"
+			   location="Milan, Italy">
+		</event>
+	</participation>
+
+    <experience title="Database Consultant" time="2020-01-01">
+        <organization name="End Point Corporation" address="endpointdev.com"
+                      location="New York, United States" remote="true"/>
+    </experience>
 
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">

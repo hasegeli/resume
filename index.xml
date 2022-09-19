@@ -69,20 +69,20 @@
                  description="web based database management tool configurable in the database"/>
     </experience>
 
-	<participation>
-		<event name="Linux and Free Software Days 2010"
-			   location="Istanbul, Türkiye">
-		</event>
-	</participation>
+    <participation>
+        <event name="Linux and Free Software Days 2010"
+               location="Istanbul, Türkiye">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="Linux and Free Software Days 2011"
-			   address="ozguryazilimgunleri.org.tr/2011"
-			   location="Istanbul, Türkiye">
-		</event>
+    <participation>
+        <event name="Linux and Free Software Days 2011"
+               address="ozguryazilimgunleri.org.tr/2011"
+               location="Istanbul, Türkiye">
+        </event>
 
-		<talk description="Software development methodologies"/>
-	</participation>
+        <talk description="Software development methodologies"/>
+    </participation>
 
     <experience title="Database Administrator" time="2011-01-06 - 2014-08-31">
         <organization name="Tart Internet Technologies"
@@ -139,35 +139,35 @@
                  description="Internet hosting provider"/>
     </experience>
 
-	<participation>
-		<event name="PostgreSQL Conference Europe 2012"
-			   address="2012.pgconf.eu"
-			   location="Prague, Czech Republic">
-		</event>
-	</participation>
+    <participation>
+        <event name="PostgreSQL Conference Europe 2012"
+               address="2012.pgconf.eu"
+               location="Prague, Czech Republic">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="Linux and Free Software Days 2013"
-			   address="ozguryazilimgunleri.org.tr/2013"
-			   location="Istanbul, Türkiye">
-		</event>
+    <participation>
+        <event name="Linux and Free Software Days 2013"
+               address="ozguryazilimgunleri.org.tr/2013"
+               location="Istanbul, Türkiye">
+        </event>
 
-		<talk description="Database replication, sharding techniques"/>
-	</participation>
+        <talk description="Database replication, sharding techniques"/>
+    </participation>
 
-	<participation>
-		<event name="PGCon 2013"
-			   address="www.pgcon.org/2013"
-			   location="Ottawa, Ontario, Canada">
-		</event>
-	</participation>
+    <participation>
+        <event name="PGCon 2013"
+               address="www.pgcon.org/2013"
+               location="Ottawa, Ontario, Canada">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="FOSDEM 2014"
-			   address="archive.fosdem.org/2014"
-			   location="Brussels, Belgium">
-		</event>
-	</participation>
+    <participation>
+        <event name="FOSDEM 2014"
+               address="archive.fosdem.org/2014"
+               location="Brussels, Belgium">
+        </event>
+    </participation>
 
     <experience title="Consultant" time="2014-09-01 - 2014-12-31">
         <accomplishment description="Model and develop of the database of the new version of Emlak Jet"/>
@@ -218,97 +218,97 @@
                  description="Home-grown metric connection scripts"/>
     </experience>
 
-	<participation>
-		<event name="German-speaking PostgreSQL Conference 2015"
-			   address="2015.pgconf.de"
-			   location="Hamburg, Germany">
-		</event>
+    <participation>
+        <event name="German-speaking PostgreSQL Conference 2015"
+               address="2015.pgconf.de"
+               location="Hamburg, Germany">
+        </event>
 
-		<talk description="Indexes of PostgreSQL"/>
-	</participation>
+        <talk description="Indexes of PostgreSQL"/>
+    </participation>
 
-	<participation>
-		<event name="PostgreSQL Conference Europe 2015"
-			   address="2015.pgconf.eu"
-			   location="Vienna, Austria">
-		</event>
-	</participation>
+    <participation>
+        <event name="PostgreSQL Conference Europe 2015"
+               address="2015.pgconf.eu"
+               location="Vienna, Austria">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="FOSDEM 2016"
-			   address="archive.fosdem.org/2016"
-			   location="Brussels, Belgium">
-		</event>
-	</participation>
+    <participation>
+        <event name="FOSDEM 2016"
+               address="archive.fosdem.org/2016"
+               location="Brussels, Belgium">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="5432... Meet Us!"
-			   address="2016.5432meet.us"
-			   location="Milan, Italy">
-		</event>
+    <participation>
+        <event name="5432... Meet Us!"
+               address="2016.5432meet.us"
+               location="Milan, Italy">
+        </event>
 
-		<talk description="Indexes of PostgreSQL"/>
-	</participation>
+        <talk description="Indexes of PostgreSQL"/>
+    </participation>
 
-	<participation>
-		<event name="PGCon 2016"
-			   address="www.pgcon.org/2016"
-			   location="Ottawa, Ontario, Canada">
-		</event>
-	</participation>
+    <participation>
+        <event name="PGCon 2016"
+               address="www.pgcon.org/2016"
+               location="Ottawa, Ontario, Canada">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="PostgreSQL Conference Europe 2016"
-			   address="2016.pgconf.eu"
-			   location="Tallinn, Estonia">
-		</event>
+    <participation>
+        <event name="PostgreSQL Conference Europe 2016"
+               address="2016.pgconf.eu"
+               location="Tallinn, Estonia">
+        </event>
 
-		<talk description="Managing thousands of database servers"/>
-	</participation>
+        <talk description="Managing thousands of database servers"/>
+    </participation>
 
-	<participation>
-		<event name="FOSDEM 2017"
-			   address="archive.fosdem.org/2017"
-			   location="Brussels, Belgium">
-		</event>
-	</participation>
+    <participation>
+        <event name="FOSDEM 2017"
+               address="archive.fosdem.org/2017"
+               location="Brussels, Belgium">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="PGCon 2017"
-			   address="www.pgcon.org/2017"
-			   location="Ottawa, Ontario, Canada">
-		</event>
-	</participation>
+    <participation>
+        <event name="PGCon 2017"
+               address="www.pgcon.org/2017"
+               location="Ottawa, Ontario, Canada">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="PostgreSQL Conference Europe 2017"
-			   address="2017.pgconf.eu"
-			   location="Warsaw, Poland">
-		</event>
-	</participation>
+    <participation>
+        <event name="PostgreSQL Conference Europe 2017"
+               address="2017.pgconf.eu"
+               location="Warsaw, Poland">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="FOSDEM 2018"
-			   address="archive.fosdem.org/2018"
-			   location="Brussels, Belgium">
-		</event>
-	</participation>
+    <participation>
+        <event name="FOSDEM 2018"
+               address="archive.fosdem.org/2018"
+               location="Brussels, Belgium">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="German-speaking PostgreSQL Conference 2018"
-			   address="2018.pgconf.de"
-			   location="Hamburg, Germany">
-		</event>
+    <participation>
+        <event name="German-speaking PostgreSQL Conference 2018"
+               address="2018.pgconf.de"
+               location="Hamburg, Germany">
+        </event>
 
-		<talk description="Text search on PostgreSQL with German emphasis"/>
-	</participation>
+        <talk description="Text search on PostgreSQL with German emphasis"/>
+    </participation>
 
-	<participation>
-		<event name="PGCon 2018"
-			   address="www.pgcon.org/2018"
-			   location="Ottawa, Ontario, Canada">
-		</event>
-	</participation>
+    <participation>
+        <event name="PGCon 2018"
+               address="www.pgcon.org/2018"
+               location="Ottawa, Ontario, Canada">
+        </event>
+    </participation>
 
     <experience title="Database Expert" time="2018-08-20 - 2020-03-27">
         <organization name="Smarkets Ltd" address="smarkets.com"
@@ -320,19 +320,19 @@
         <accomplishment description="Prepare PostgreSQL 11 setup to run in Kubernetes"/>
     </experience>
 
-	<participation>
-		<event name="FOSDEM 2019"
-			   address="archive.fosdem.org/2019"
-			   location="Brussels, Belgium">
-		</event>
-	</participation>
+    <participation>
+        <event name="FOSDEM 2019"
+               address="archive.fosdem.org/2019"
+               location="Brussels, Belgium">
+        </event>
+    </participation>
 
-	<participation>
-		<event name="PostgreSQL Conference Europe 2019"
-			   address="2019.pgconf.eu"
-			   location="Milan, Italy">
-		</event>
-	</participation>
+    <participation>
+        <event name="PostgreSQL Conference Europe 2019"
+               address="2019.pgconf.eu"
+               location="Milan, Italy">
+        </event>
+    </participation>
 
     <experience title="Database Consultant" time="2020-01-01">
         <organization name="End Point Corporation" address="endpointdev.com"

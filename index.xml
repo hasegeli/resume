@@ -45,12 +45,12 @@
         <event name="Technical Trip to Armutçuk Pit Coal Underground Mine"/>
     </participation>
 
-    <experience title="Part Time Student Assistant" time="2007 - 2013">
+    <job title="Part Time Student Assistant" time="2007 - 2013">
         <organization name="Istanbul Technical University - Health Culture Sport Department"
                       address="www.sks.itu.edu.tr"/>
-    </experience>
+    </job>
 
-    <experience title="Programmer" time="2008-05-09 - 2010-06-01">
+    <job title="Programmer" time="2008-05-09 - 2010-06-01">
         <organization name="Ares Technology"
                       location="Istanbul, Türkiye"/>
 
@@ -67,7 +67,7 @@
 
         <project name="Pertyler" address="code.google.com/p/pertyler"
                  description="web based database management tool configurable in the database"/>
-    </experience>
+    </job>
 
     <participation>
         <event name="Linux and Free Software Days 2010"
@@ -84,7 +84,7 @@
         <talk description="Software development methodologies"/>
     </participation>
 
-    <experience title="Database Administrator" time="2011-01-06 - 2014-08-31">
+    <job title="Database Administrator" time="2011-01-06 - 2014-08-31">
         <organization name="Tart Internet Technologies"
                       location="Istanbul, Türkiye"
                       address="tart.com.tr"/>
@@ -137,7 +137,7 @@
 
         <project name="SihirHosting" address="sihirhosting.com"
                  description="Internet hosting provider"/>
-    </experience>
+    </job>
 
     <participation>
         <event name="PostgreSQL Conference Europe 2012"
@@ -169,7 +169,7 @@
         </event>
     </participation>
 
-    <experience title="Consultant" time="2014-09-01 - 2014-12-31">
+    <job title="Consultant" time="2014-09-01 - 2014-12-31">
         <accomplishment description="Model and develop of the database of the new version of Emlak Jet"/>
         <accomplishment description="Design and develop from MySQL to PostgreSQL replication for the new version of Emlak Jet"/>
         <accomplishment description="Implement of the new text search and auto-complete functions for Emlak Jet"/>
@@ -180,9 +180,9 @@
                  description="a private listing application"/>
 
         <project name="Yaşar Holding PostgreSQL Training"/>
-    </experience>
+    </job>
 
-    <experience title="Expert Database Administrator" time="2015-02-01 - 2018-08-10">
+    <job title="Expert Database Administrator" time="2015-02-01 - 2018-08-10">
         <organization name="InnoGames GmbH" address="www.innogames.com"
                       location="Hamburg, Germany"/>
 
@@ -216,7 +216,7 @@
 
         <project name="igcollect" address="github.com/innogames/igcollect"
                  description="Home-grown metric connection scripts"/>
-    </experience>
+    </job>
 
     <participation>
         <event name="German-speaking PostgreSQL Conference 2015"
@@ -311,7 +311,7 @@
         </event>
     </participation>
 
-    <experience title="Database Expert" time="2018-08-20 - 2020-03-27">
+    <job title="Database Expert" time="2018-08-20 - 2020-03-27">
         <organization name="Smarkets Ltd" address="smarkets.com"
                       location="London, United Kingdom"/>
 
@@ -319,7 +319,7 @@
         <accomplishment description="Ensure the databases are well-structured, secure, robust to failures and performant"/>
         <accomplishment description="Set up table partitioning for account activities"/>
         <accomplishment description="Prepare PostgreSQL 11 setup to run in Kubernetes"/>
-    </experience>
+    </job>
 
     <participation>
         <event name="FOSDEM 2019"
@@ -335,10 +335,10 @@
         </event>
     </participation>
 
-    <experience title="Database Consultant" time="2021-01-01">
+    <job title="Database Consultant" time="2021-01-01">
         <organization name="End Point Corporation" address="endpointdev.com"
                       location="New York, United States" remote="true"/>
-    </experience>
+    </job>
 
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">

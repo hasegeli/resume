@@ -27,24 +27,7 @@
                     </p>
 
                     <h3>Education</h3>
-
-                    <blockquote>
-                        <xsl:for-each select="education">
-                            <p class="time"><xsl:value-of select="@time"/></p>
-                            <p><xsl:value-of select="@department"/></p>
-                            <xsl:apply-templates select="organization"/>
-
-                            <xsl:if test="internship">
-                                <p>Internships:</p>
-                                <blockquote><xsl:apply-templates select="internship"/></blockquote>
-                            </xsl:if>
-
-                            <xsl:if test="project">
-                                <p>Projects:</p>
-                                <blockquote><xsl:apply-templates select="project"/></blockquote>
-                            </xsl:if>
-                        </xsl:for-each>
-                    </blockquote>
+                    <blockquote><xsl:apply-templates select="education"/></blockquote>
 
                     <h3>Experience</h3>
 
@@ -119,14 +102,26 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="certificate | internship">
+    <xsl:template match="education | certificate | internship">
         <p class="time"><xsl:value-of select="@time"/></p>
 
         <xsl:if test="@title">
             <p><xsl:value-of select="@title"/></p>
         </xsl:if>
 
-        <xsl:apply-templates/>
+        <xsl:if test="organization">
+            <xsl:apply-templates select="organization"/>
+        </xsl:if>
+
+        <xsl:if test="internship">
+            <p>Internships:</p>
+            <blockquote><xsl:apply-templates select="internship"/></blockquote>
+        </xsl:if>
+
+        <xsl:if test="project">
+            <p>Projects:</p>
+            <blockquote><xsl:apply-templates select="project"/></blockquote>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="talk">

@@ -345,6 +345,13 @@
                       location="Oakland, United States" remote="true"/>
     </job>
 
+    <participation>
+        <event name="PostgreSQL Conference Europe 2023"
+               address="2023.pgconf.eu"
+               location="Prague, Czechia">
+        </event>
+    </participation>
+
     <knowledge about="Natural Languages">
         <item name="Turkish" start-year="1989">
             <usage name="Spoken" level="Native"/>

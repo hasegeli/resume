@@ -335,9 +335,14 @@
         </event>
     </participation>
 
-    <job title="Database Consultant" time="2021-01-01">
+    <job title="Database Consultant" time="2021-01-01 - 2022-11-30">
         <organization name="End Point Corporation" address="endpointdev.com"
                       location="New York, United States" remote="true"/>
+    </job>
+
+    <job title="Principal Software Engineer" time="2022-12-05">
+        <organization name="Fivetran" address="fivetran.com"
+                      location="Oakland, United States" remote="true"/>
     </job>
 
     <knowledge about="Natural Languages">

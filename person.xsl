@@ -119,7 +119,7 @@
         </html>
     </xsl:template>
 
-    <xsl:template match="certificate | internship | job | member">
+    <xsl:template match="certificate | internship">
         <p class="time"><xsl:value-of select="@time"/></p>
 
         <xsl:if test="@title">
